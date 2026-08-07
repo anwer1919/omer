@@ -1,11 +1,11 @@
 export default function About() {
   return (
-    <section id="about" className="py-[120px] max-md:py-[72px] px-6 text-center">
-      <p className="text-[var(--gold)] text-sm mb-4">نبذة</p>
-      <p className="max-w-[720px] mx-auto text-lg leading-[1.9]">
-        مؤسس ورائد أعمال، يبني مشاريع نوعية تجمع بين الرؤية والأثر.
-        أسس HOWK ونقوة الدار، ويقود مبادرات ذات أثر اقتصادي ومجتمعي ملموس.
-        يؤمن بأن النجاح الحقيقي يُقاس بما يبقى.
+    <section id="about" className="py-[100px] max-md:py-[72px] px-6 text-center">
+      <p className="w-fit mx-auto text-[var(--gold)] text-sm border-b border-[var(--gold)]/60 pb-3 px-6 mb-12">نبذة</p>
+      <p className="max-w-[800px] mx-auto text-lg md:text-xl leading-[2.1]">
+        رائد أعمال سعودي، أعمل في بناء وتطوير المشاريع داخل وخارج المملكة.
+        <br className="max-md:hidden" />
+        وأؤمن بأن العلامة التجارية الحقيقية تُبنى بالقيمة قبل الانتشار.
       </p>
     </section>
   );
