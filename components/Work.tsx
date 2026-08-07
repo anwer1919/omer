@@ -6,8 +6,8 @@ const cards = [
 
 export default function Work() {
   return (
-    <section id="work" className="pt-4 md:pt-8 pb-[110px] max-md:pb-10 px-3 md:px-6">
-      <p className="text-center text-sm text-[var(--gold)] mb-6 md:mb-10">الخبرة والأعمال</p>
+    <section id="work" className="pt-2 md:pt-4 pb-[110px] max-md:pb-10 px-3 md:px-6">
+      <p className="text-center text-sm text-[var(--gold)] mb-4 md:mb-6">الخبرة والأعمال</p>
       <div className="max-w-[1200px] mx-auto grid grid-cols-3 gap-2 md:gap-6">
         {cards.map(c => {
           const cls = 'group relative overflow-hidden aspect-[3/4] rounded-[6px] border border-[rgba(195,161,104,.65)] bg-[var(--card)] transition-transform duration-300 hover:scale-[1.02]';
