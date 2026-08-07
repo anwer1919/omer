@@ -3,18 +3,18 @@
 @tailwind utilities;
 
 :root {
-  --bg: #0D0D0D;
-  --card: #141414;
-  --text: #E8E4DE;
-  --muted: #9B978F;
-  --gold: #C9A96E;
-  --gold-hover: #D8BE8C;
-  --glow: rgba(201,169,110,.25);
-  --divider: rgba(232,228,222,.12);
+  --bg: #050505;
+  --bg2: #090909;
+  --card: #0A0A0A;
+  --text: #F2EEE8;
+  --muted: #A8A29A;
+  --gold: #C3A168;
+  --gold-dim: rgba(195,161,104,.35);
+  --divider: rgba(242,238,232,.1);
 }
 html { scroll-behavior: smooth; }
-body { background: var(--bg); color: var(--text); font-family: var(--font-body), sans-serif; }
-h1, h2, h3 { font-family: var(--font-head), serif; }
-@media (prefers-reduced-motion: reduce) { * { animation: none !important; transition: none !important; } }
 html, body { overflow-x: hidden; }
-body { background: var(--bg); }
+body { background: var(--bg); color: var(--text); font-family: var(--font-body), sans-serif; }
+@keyframes fade { from { opacity: 0 } to { opacity: 1 } }
+main { animation: fade .4s ease-out; }
+@media (prefers-reduced-motion: reduce) { * { animation: none !important; transition: none !important; } }
