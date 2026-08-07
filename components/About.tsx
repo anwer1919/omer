@@ -5,7 +5,9 @@ export default function About() {
       <p className="max-w-[760px] mx-auto text-lg md:text-xl leading-[2.1]">
         رائد أعمال سعودي بخبرة تمتد لأكثر من عشرين عامًا في بناء الأسواق وتطوير الأعمال، وأعمل اليوم على تأسيس علامات سعودية مستقلة بمعايير عالية وهوية طويلة الأمد.
       </p>
-      <p className="mt-10 text-[var(--gold)] text-lg">عمر العُمر</p>
+      {/* التوقيع — صورة صغيرة مناسبة بدل النص */}
+      <img src="/signature.png" alt="عمر العُمر"
+        className="h-10 md:h-14 w-auto object-contain mx-auto mt-8 md:mt-10 mix-blend-screen" />
     </section>
   );
 }
