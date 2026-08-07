@@ -6,12 +6,16 @@ import Social from '../components/Social';
 import Footer from '../components/Footer';
 
 export default function Home() {
-  return (<>
-    <NavBar />
-    <Hero />
-    <Projects />
-    <About />
-    <Social />
-    <Footer />
-  </>);
+  return (
+    <>
+      <NavBar />
+      <main>
+        <Hero />
+        <Projects />
+        <About />
+        <Social />
+      </main>
+      <Footer />
+    </>
+  );
 }
