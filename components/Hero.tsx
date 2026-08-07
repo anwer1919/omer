@@ -5,7 +5,7 @@ export default function Hero() {
       <div className="col-start-1 flex flex-col justify-center px-5 md:px-14 pt-[100px] md:pt-[72px] pb-10 md:pb-16">
         <h1 className="text-[34px] md:text-[68px] font-semibold leading-[1.2]">عمر العُمر</h1>
         <p dir="ltr" className="text-[var(--gold)] tracking-[.2em] md:tracking-[.35em] text-[9px] md:text-sm mt-4 md:mt-5 md:text-right">FOUNDER • ENTREPRENEUR</p>
-        <p className="text-[13px] md:text-lg text-[var(--muted)] mt-4 md:mt-6">أبني علامات تستحق أن تبقى</p>
+       <p className="text-[15px] md:text-xl text-[var(--muted)] mt-4 md:mt-6">أبني علامات تستحق أن تبقى</p>
         {/* الأزرار جنب بعض دائمًا */}
         <div className="flex flex-row flex-wrap items-center gap-2 md:gap-4 mt-6 md:mt-10">
           <a href="/profile" className="h-[40px] md:h-[52px] px-3.5 md:px-8 rounded-[4px] bg-[var(--gold)] text-black grid place-items-center text-[12px] md:text-base font-medium whitespace-nowrap hover:bg-[#d1b07a] transition-colors">الملف التنفيذي</a>
