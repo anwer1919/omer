@@ -14,7 +14,7 @@ const items = [
 export default function Social() {
   const [sites, setSites] = useState(false);
   return (
-    <section id="contact" className="py-20 max-md:py-8 px-6 text-center">
+    <section id="contact" className="pt-16 pb-8 max-md:pt-8 max-md:pb-4 px-6 text-center">
       <div dir="ltr" className="max-w-[1000px] mx-auto flex max-md:flex-wrap justify-center gap-2 md:gap-6">
         {items.map(({ Icon, label, href }) => (
           <a key={label} href={href} target={href.startsWith('http') ? '_blank' : undefined}
