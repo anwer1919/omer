@@ -18,7 +18,7 @@ export default function Hero() {
         </div>
       </div>
       <div className="order-1 md:order-none md:col-start-2 relative h-[70vh] md:h-auto">
-        <img src="/portrait.png" alt="عمر العُمر" className="absolute inset-0 size-full object-cover object-top" />
+        <img src="/Portrait.png" alt="عمر العُمر" className="absolute inset-0 size-full object-cover object-top" />
         <div className="absolute inset-0 bg-gradient-to-t from-black to-transparent md:hidden" />
         <div className="absolute inset-0 max-md:hidden bg-gradient-to-r from-transparent to-black" />
       </div>
