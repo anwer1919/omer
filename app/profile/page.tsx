@@ -1,6 +1,6 @@
 import Link from 'next/link';
 
-export const metadata = { title: 'الملف التنفيذي | عمر العمر' };
+export const metadata = { title: 'الملف التنفيذي | عمر العُمر' };
 
 export default function Profile() {
   return (
