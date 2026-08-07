@@ -14,7 +14,7 @@ const items = [
 export default function Social() {
   const [sites, setSites] = useState(false);
   return (
-    <section id="contact" className="py-20 max-md:py-14 px-6 text-center">
+    <section id="contact" className="py-20 max-md:py-8 px-6 text-center">
       <div dir="ltr" className="max-w-[1000px] mx-auto flex max-md:flex-wrap justify-center gap-2 md:gap-6">
         {items.map(({ Icon, label, href }) => (
           <a key={label} href={href} target={href.startsWith('http') ? '_blank' : undefined}
@@ -36,7 +36,7 @@ export default function Social() {
           )}
         </div>
       </div>
-      <p dir="ltr" className="mt-10 text-sm text-[var(--muted)] tracking-wider">
+      <p dir="ltr" className="mt-6 md:mt-10 text-sm text-[var(--muted)] tracking-wider">
         <a href="mailto:EDMARK@live.in" className="hover:text-[var(--gold)] transition-colors">EDMARK@live.in</a>
         <span className="mx-2">•</span>
         omer-zeta.vercel.app
