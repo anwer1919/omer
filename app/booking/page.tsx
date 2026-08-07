@@ -8,7 +8,7 @@ export default function Booking() {
     e.preventDefault();
     const d = new FormData(e.currentTarget);
     const body = `الاسم: ${d.get('name')}\nالجهة: ${d.get('org')}\nالمنصب: ${d.get('title')}\nالبريد: ${d.get('email')}\nسبب الاجتماع: ${d.get('reason')}`;
-    window.location.href = `mailto:contact@omar.com?subject=${encodeURIComponent('طلب اجتماع — عمر العُمر')}&body=${encodeURIComponent(body)}`;
+    window.location.href = `mailto:EDMARK@live.in?subject=${encodeURIComponent('طلب اجتماع — عمر العُمر')}&body=${encodeURIComponent(body)}`;
     setSent(true);
   };
   const field = 'w-full bg-transparent border-b border-[var(--divider)] focus:border-[var(--gold)] outline-none py-3 transition-colors';
