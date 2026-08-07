@@ -1,9 +1,9 @@
 export default function OaDivider() {
   return (
-    <div className="flex items-center justify-center gap-6 py-20 max-md:py-14 px-6">
-      <span className="h-px w-16 md:w-24 bg-[var(--divider)]" />
-      <img src="/logo.png" alt="" className="h-8 w-auto object-contain mix-blend-screen opacity-80" />
-      <span className="h-px w-16 md:w-24 bg-[var(--divider)]" />
+    <div className="flex items-center justify-center gap-8 py-20 max-md:py-14 px-6">
+      <span className="h-px w-20 md:w-32 bg-[var(--gold-dim)]" />
+      <img src="/logo.png" alt="" className="h-12 md:h-14 w-auto object-contain mix-blend-screen" />
+      <span className="h-px w-20 md:w-32 bg-[var(--gold-dim)]" />
     </div>
   );
 }
