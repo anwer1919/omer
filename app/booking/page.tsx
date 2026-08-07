@@ -12,7 +12,7 @@ export default function Booking() {
   const confirm = () => {
     if (day === null || !slot) return;
     const msg = `مرحبًا، أرغب بحجز اجتماع يوم ${day} من الشهر، الساعة ${slot}.`;
-    window.open(`https://wa.me/9665xxxxxxx?text=${encodeURIComponent(msg)}`, '_blank');
+    window.open(`https://wa.me/966542860000?text=${encodeURIComponent(msg)}`, '_blank');
   };
 
   return (
