@@ -17,7 +17,7 @@ export default function NavBar() {
       <header dir="ltr" className={`fixed top-0 inset-x-0 z-40 h-[80px] transition ${scrolled ? 'bg-black/90 backdrop-blur' : ''}`}>
         <div className="max-w-[1200px] mx-auto h-full px-6 flex items-center justify-between">
           <Link href="#home" className="grid place-items-center">
-  <img src="/logo.png" alt="عمر العُمر" className="h-13 md:h-15 w-auto object-contain mix-blend-screen" />
+  <img src="/logo.png" alt="عمر العُمر" className="h-13 md:h-14 w-auto object-contain mix-blend-screen" />
 </Link>
           <nav dir="rtl" className="max-md:hidden flex gap-10 text-sm">
             {links.map(([h, t], i) => (
