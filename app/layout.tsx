@@ -6,9 +6,9 @@ const plex = IBM_Plex_Sans_Arabic({ subsets: ['arabic'], weight: ['400', '500', 
 const inter = Inter({ subsets: ['latin'], variable: '--font-en' });
 
 export const metadata: Metadata = {
-  title: 'عمر العمر | Founder & Entrepreneur',
-  description: 'الهوية الرقمية الرسمية لعمر العمر — الخبرة والأعمال والتواصل.',
-  openGraph: { title: 'عمر العمر', description: 'Founder & Entrepreneur', type: 'profile' }
+  title: 'عمر العُمر | Founder & Entrepreneur',
+  description: 'الهوية الرقمية الرسمية لعمر العُمر — الخبرة والأعمال والتواصل.',
+  openGraph: { title: 'عمر العُمر', description: 'Founder & Entrepreneur', type: 'profile' }
 };
 
 export default function RootLayout({ children }: { children: React.ReactNode }) {
