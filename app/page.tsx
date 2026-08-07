@@ -1,6 +1,8 @@
 import NavBar from '../components/NavBar';
 import Hero from '../components/Hero';
-import Projects from '../components/Projects';
+import OaDivider from '../components/OaDivider';
+import Statement from '../components/Statement';
+import Work from '../components/Work';
 import About from '../components/About';
 import Social from '../components/Social';
 import Footer from '../components/Footer';
@@ -11,7 +13,9 @@ export default function Home() {
       <NavBar />
       <main>
         <Hero />
-        <Projects />
+        <OaDivider />
+        <Statement />
+        <Work />
         <About />
         <Social />
       </main>
@@ -19,4 +23,3 @@ export default function Home() {
     </>
   );
 }
-
