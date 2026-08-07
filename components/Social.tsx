@@ -36,7 +36,11 @@ export default function Social() {
           )}
         </div>
       </div>
-      <p dir="ltr" className="mt-10 text-sm text-[var(--muted)] tracking-wider">contact@omar.com  •  omer-zeta.vercel.app</p>
+      <p dir="ltr" className="mt-10 text-sm text-[var(--muted)] tracking-wider">
+        <a href="mailto:EDMARK@live.in" className="hover:text-[var(--gold)] transition-colors">EDMARK@live.in</a>
+        <span className="mx-2">•</span>
+        omer-zeta.vercel.app
+      </p>
     </section>
   );
 }
