@@ -13,9 +13,9 @@ export default function Work() {
           const cls = 'group relative overflow-hidden aspect-[3/4] max-md:aspect-auto max-md:h-[420px] rounded-[6px] border border-[var(--gold-dim)] bg-[var(--card)] transition-transform duration-300 hover:scale-[1.02]';
           const inner = (
             <>
-              {/* الصورة بنفس مقاس البطاقة ومدمجة معها */}
+              {/* الصورة تمتد حتى حدود البطاقة بالضبط */}
               <img src={c.img} alt={c.name}
-                className="absolute inset-0 size-full object-contain object-[center_72%] px-8 pb-10 mix-blend-screen group-hover:brightness-110 transition" />
+                className="absolute inset-0 size-full object-contain object-[center_72%] mix-blend-screen group-hover:brightness-110 transition" />
               <div className="relative z-10 p-8 pt-10">
                 <h3 className="text-2xl font-medium text-center">{c.name}</h3>
                 <p className="text-sm text-[var(--muted)] leading-[1.9] text-center mt-4">{c.desc}</p>
