@@ -3,11 +3,11 @@ export default function Hero() {
     <section id="home" className="relative overflow-hidden">
       <div className="relative w-full px-4 md:px-14 pt-[84px] md:pt-[80px]">
         <div className="absolute inset-0">
-          {/* الصورة أوضح: سطوع أعلى */}
-          <img src="/portrait.png" alt="عمر العُمر" className="absolute inset-y-0 right-0 h-full w-[114%] md:w-[110%] max-w-none object-contain object-top md:object-cover md:object-[center_8%] brightness-[1.35] contrast-[1.05]" />
-          {/* الظل على جهة الأزرار والكتابة فقط — والصوره تبقى صافية */}
-          <div className="absolute inset-0 bg-gradient-to-l from-[var(--bg)] from-10% via-[var(--bg)]/70 via-40% to-transparent to-65%" />
-          <div className="absolute inset-x-0 bottom-0 h-[18%] bg-gradient-to-t from-[var(--bg)] to-transparent" />
+          {/* الصورة كاملة بأعلى مع سطوع قوي يُبرز إضاءات المباني */}
+          <img src="/portrait.png" alt="عمر العُمر" className="absolute inset-y-0 right-0 h-full w-[114%] md:w-[110%] max-w-none object-contain object-top md:object-cover md:object-[center_8%] brightness-[1.55] contrast-[1.05]" />
+          {/* ظل خفيف وموضعي على جهة الكتابة والأزرار فقط */}
+          <div className="absolute inset-0 bg-gradient-to-l from-[var(--bg)] from-5% via-[var(--bg)]/50 via-35% to-transparent to-60%" />
+          <div className="absolute inset-x-0 bottom-0 h-[12%] bg-gradient-to-t from-[var(--bg)] to-transparent" />
         </div>
         <div className="relative z-10 flex flex-col md:w-[52%] md:ml-auto pt-2 md:pt-6">
           <h1 className="text-[36px] md:text-[68px] font-normal leading-[1.2]">عمر العُمر</h1>
