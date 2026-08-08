@@ -3,14 +3,12 @@ export default function Hero() {
     <section id="home" className="relative overflow-hidden">
       <div className="relative w-full px-4 md:px-14 pt-[84px] md:pt-[80px]">
         <div className="absolute inset-0">
-          {/* سطوع طبيعي مثل المرجع تمامًا */}
           <img src="/portrait.png" alt="عمر العُمر" className="absolute inset-y-0 left-0 h-full w-full max-w-none object-contain object-[0%_0%] md:object-cover md:object-[center_8%] brightness-[1.15] contrast-[1.05]" />
-          {/* عتمه داكنة من اليمين خلف الكتابة والأزرار كما في المرجع */}
           <div className="absolute inset-0 bg-gradient-to-l from-[var(--bg)] from-35% via-[var(--bg)]/75 via-55% to-transparent to-80%" />
         </div>
         <div className="relative z-10 flex flex-col md:w-[52%] md:ml-auto pt-2 md:pt-6">
           <h1 className="text-[36px] md:text-[68px] font-normal leading-[1.2]">عمر العُمر</h1>
-          <p dir="ltr" className="text-[var(--gold)] tracking-[.2em] md:tracking-[.35em] text-[9px] md:text-sm mt-3 md:mt-5 text-right">FOUNDER • ENTREPRENEUR</p>
+          <p dir="ltr" className="font-sans text-[var(--gold)] tracking-[.2em] md:tracking-[.35em] text-[9px] md:text-sm mt-3 md:mt-5 text-right">FOUNDER • ENTREPRENEUR</p>
           <div className="flex flex-row flex-wrap items-center gap-2 md:gap-4 mt-3 md:mt-10">
             <a href="/profile" className="h-[40px] md:h-[52px] px-3.5 md:px-8 rounded-[4px] bg-[var(--gold)] text-black grid place-items-center text-[12px] md:text-base font-medium whitespace-nowrap hover:bg-[#d8a97e] transition-colors">الملف التنفيذي</a>
             <a href="/booking" className="h-[40px] md:h-[52px] px-3.5 md:px-8 rounded-[4px] border border-[var(--gold-dim)] grid place-items-center text-[12px] md:text-base whitespace-nowrap hover:border-[var(--gold)] transition-colors">طلب اجتماع</a>
