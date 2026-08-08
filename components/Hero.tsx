@@ -3,12 +3,11 @@ export default function Hero() {
     <section id="home" className="relative overflow-hidden">
       <div className="relative w-full px-4 md:px-14 pt-[84px] md:pt-[80px]">
         <div className="absolute inset-0">
-          {/* وسّعنا العرض قليلًا → الشخص ينزاح يسارًا */}
           <img src="/portrait.png" alt="عمر العُمر" className="absolute inset-y-0 right-0 h-full w-[118%] md:w-[114%] max-w-none object-contain object-top md:object-cover md:object-[center_8%] brightness-[1.6] contrast-[1.05]" />
           {/* تخفيف سطوع الوجه فقط */}
           <div className="absolute inset-0 bg-[radial-gradient(circle_at_32%_22%,rgba(0,0,0,.35),transparent_50%)]" />
-          {/* ظل واضح من اليمين في الأعلى على الكتابة والأزرار */}
-          <div className="absolute inset-0 bg-gradient-to-bl from-[var(--bg)] from-10% via-[var(--bg)]/70 via-45% to-transparent to-70%" />
+          {/* ظل أسود قوي خلف الكتابة والأزرار */}
+          <div className="absolute inset-0 bg-gradient-to-l from-[var(--bg)] from-30% via-[var(--bg)]/80 via-50% to-transparent to-70%" />
         </div>
         <div className="relative z-10 flex flex-col md:w-[52%] md:ml-auto pt-2 md:pt-6">
           <h1 className="text-[36px] md:text-[68px] font-normal leading-[1.2]">عمر العُمر</h1>
