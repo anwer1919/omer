@@ -14,8 +14,7 @@ const items = [
 export default function Social() {
   const [sites, setSites] = useState(false);
   return (
-    <section id="contact" className="pt-14 pb-6 max-md:pt-6 max-md:pb-3 px-4 md:px-6 text-center">
-      {/* السبع أيقونات على سطر واحد دائمًا */}
+    <section id="contact" className="pt-14 pb-6 max-md:pt-4 max-md:pb-2 px-4 md:px-6 text-center">
       <div dir="ltr" className="max-w-[1000px] mx-auto flex justify-center md:gap-6">
         {items.map(({ Icon, label, href }) => (
           <a key={label} href={href} target={href.startsWith('http') ? '_blank' : undefined}
@@ -37,8 +36,7 @@ export default function Social() {
           )}
         </div>
       </div>
-      {/* البريد والموقع مع أيقونتيهما */}
-      <p dir="ltr" className="mt-6 md:mt-10 text-[12px] md:text-sm text-[var(--muted)] tracking-wider flex items-center justify-center flex-wrap gap-2 md:gap-3">
+      <p dir="ltr" className="mt-4 md:mt-10 text-[12px] md:text-sm text-[var(--muted)] tracking-wider flex items-center justify-center flex-wrap gap-2 md:gap-3">
         <a href="mailto:EDMARK@live.in" className="flex items-center gap-2 hover:text-[var(--gold)] transition-colors">
           <FaEnvelope className="size-3.5 md:size-4 text-[var(--gold)]" />
           EDMARK@live.in
@@ -52,4 +50,5 @@ export default function Social() {
     </section>
   );
 }
+
 
