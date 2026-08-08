@@ -1,0 +1,22 @@
+1:"$Sreact.fragment"
+2:I[22016,["/_next/static/chunks/3fntmmi971322.js","/_next/static/chunks/22i43cg4l4-dq.js"],""]
+3:I[97367,["/_next/static/chunks/3fntmmi971322.js"],"OutletBoundary"]
+4:"$Sreact.suspense"
+8:I[97367,["/_next/static/chunks/3fntmmi971322.js"],"ViewportBoundary"]
+9:I[97367,["/_next/static/chunks/3fntmmi971322.js"],"MetadataBoundary"]
+b:I[39756,["/_next/static/chunks/3fntmmi971322.js"],"default"]
+c:I[37457,["/_next/static/chunks/3fntmmi971322.js"],"default"]
+:HL["/_next/static/chunks/215cj3d8-itz7.css","style"]
+7:X
+e:X
+e:C
+0:{"buildId":"R82AYbxyJNAkDCb9L9WOy","data":[{"rsc":["$","$1","c",{"children":[["$","main",null,{"className":"max-w-[800px] mx-auto px-6 py-28","children":[["$","$L2",null,{"href":"/","className":"text-sm text-[var(--muted)] hover:text-[var(--gold)]","children":"→ عودة"}],["$","h1",null,{"className":"text-4xl md:text-5xl font-semibold mt-8","children":"الملف التنفيذي"}],["$","p",null,{"dir":"ltr","className":"text-[var(--gold)] tracking-[.3em] text-xs mt-4","children":"FOUNDER • ENTREPRENEUR"}],["$","div",null,{"className":"h-px w-16 bg-[var(--gold-dim)] my-10"}],["$","p",null,{"className":"text-lg leading-[2.1]","children":"رائد أعمال سعودي بخبرة تمتد لأكثر من عشرين عامًا في بناء الأسواق وتطوير الأعمال، وأعمل اليوم على تأسيس علامات سعودية مستقلة بمعايير عالية وهوية طويلة الأمد."}],["$","h2",null,{"className":"text-xl font-medium mt-12 mb-6 text-[var(--gold)]","children":"الخبرة والأعمال"}],["$","ul",null,{"className":"space-y-6 text-[var(--muted)] leading-[1.9] text-right","children":[["$","li",null,{"children":[["$","span",null,{"className":"text-[var(--text)]","children":"EDMARK"}]," — 20 عامًا من الخبرة في بناء الأسواق وتطوير الأعمال عبر أكثر من 40 دولة."]}],["$","li",null,{"children":[["$","span",null,{"className":"text-[var(--text)]","children":"HOWK"}]," — دار أزياء سعودية فاخرة تقوم على الندرة والحِرفة والتميّز."]}],["$","li",null,{"children":[["$","span",null,{"className":"text-[var(--text)]","children":"نقوة الدار"}]," — علامة سعودية للمنتجات المنزلية، تضع الجودة والثقة في صميم التجربة."]}]]}],["$","a",null,{"href":"/profile.pdf","download":true,"className":"mt-14 inline-grid h-[52px] px-8 rounded-[4px] border border-[var(--gold-dim)] place-items-center hover:border-[var(--gold)] transition-colors","children":"تحميل النسخة PDF"}]]}],[["$","script","script-0",{"src":"/_next/static/chunks/22i43cg4l4-dq.js","async":true}]],["$","$L3",null,{"children":["$","$4",null,{"name":"Next.MetadataOutlet","children":"$@5"}]}]]}],"isPartial":"$@6","staleTime":"$7","varyParams":null},{"rsc":["$","$1","h",{"children":[null,["$","$L8",null,{"children":[["$","meta","0",{"charSet":"utf-8"}],["$","meta","1",{"name":"viewport","content":"width=device-width, initial-scale=1"}]]}],["$","div",null,{"hidden":true,"children":["$","$L9",null,{"children":["$","$4",null,{"name":"Next.Metadata","children":[["$","title","0",{"children":"الملف التنفيذي | عمر العُمر"}],["$","meta","1",{"name":"description","content":"أبني علامات تستحق أن تبقى"}]]}]}]}],["$","meta",null,{"name":"next-size-adjust","content":""}]]}],"isPartial":"$@a","staleTime":"$7","varyParams":null},{"rsc":["$","$1","c",{"children":[null,["$","$Lb",null,{"parallelRouterKey":"children","template":["$","$Lc",null,{}]}]]}],"isPartial":"$@d","staleTime":"$7","varyParams":"$e"},{"rsc":["$","$1","c",{"children":[[["$","link","0",{"rel":"stylesheet","href":"/_next/static/chunks/215cj3d8-itz7.css","precedence":"next"}],["$","script","script-0",{"src":"/_next/static/chunks/3fntmmi971322.js","async":true}]],["$","html",null,{"lang":"ar","dir":"rtl","className":"amiri_da3fadf4-module__mqQiIq__variable","children":["$","body",null,{"className":"amiri_da3fadf4-module__mqQiIq__className","children":["$","$Lb",null,{"parallelRouterKey":"children","template":["$","$Lc",null,{}],"notFound":[["$","main",null,{"className":"min-h-screen grid place-items-center text-center px-6","children":["$","div",null,{"children":[["$","h1",null,{"className":"text-[64px] text-[var(--gold)]","children":"404"}],["$","p",null,{"className":"text-[var(--muted)] mb-8","children":"الصفحة غير موجودة"}],["$","$L2",null,{"href":"/","className":"inline-grid h-[52px] px-8 rounded-[4px] bg-[var(--gold)] text-black place-items-center","children":"العودة للرئيسية"}]]}]}],[]]}]}]}]]}],"isPartial":"$@f","staleTime":"$7","varyParams":null}],"isUpgradeableISRFallback":false,"a":"$@10","rootVaryParams":null,"needsRuntimeRequest":"$@11"}
+5:null
+7:300
+11:true
+7:C
+10:0
+a:"$undefined"
+d:"$undefined"
+f:"$undefined"
+6:"$undefined"

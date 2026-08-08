@@ -1,0 +1,3 @@
+module.exports=[50905,a=>{a.v({className:"amiri_da3fadf4-module__mqQiIq__className",variable:"amiri_da3fadf4-module__mqQiIq__variable"})},33290,a=>{"use strict";var b=a.i(7997),c=a.i(50905);let d={className:c.default.className,style:{fontFamily:"'Amiri', 'Amiri Fallback'",fontStyle:"normal"}};null!=c.default.variable&&(d.variable=c.default.variable),a.s(["default",0,function({children:a}){return(0,b.jsx)("html",{lang:"ar",dir:"rtl",className:d.variable,children:(0,b.jsx)("body",{className:d.className,children:a})})},"metadata",0,{title:"عمر العُمر — مؤسس ورائد أعمال",description:"أبني علامات تستحق أن تبقى"}],33290)},70864,function(a){a.n(a.i(33290))}];
+
+//# sourceMappingURL=%5Broot-of-the-server%5D__0_n9weh._.js.map
