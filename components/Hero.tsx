@@ -12,12 +12,12 @@ export default function Hero() {
           <h1 className="text-[36px] md:text-[68px] font-normal leading-[1.2]">عمر العُمر</h1>
           <p dir="ltr" className="font-sans text-[var(--gold)] tracking-[.2em] md:tracking-[.35em] text-[9px] md:text-sm mt-3 md:mt-5 text-right">FOUNDER • ENTREPRENEUR</p>
           <div className="flex flex-row flex-wrap items-center gap-2 md:gap-4 mt-3 md:mt-10">
-            <a href="/booking" className="h-[40px] md:h-[52px] px-3.5 md:px-8 rounded-[4px] border border-[var(--gold-dim)] flex items-center justify-center gap-2 text-[12px] md:text-base whitespace-nowrap hover:border-[var(--gold)] transition-colors">
-              <FaCalendarDays className="size-3.5 md:size-4 text-[var(--gold)]" />
+            <a href="/booking" className="h-[32px] md:h-[46px] px-2.5 md:px-6 rounded-[4px] border border-[var(--gold-dim)] flex items-center justify-center gap-1.5 md:gap-2 text-[10px] md:text-sm whitespace-nowrap hover:border-[var(--gold)] transition-colors">
+              <FaCalendarDays className="size-3 md:size-3.5 text-[var(--gold)]" />
               حجز الاجتماع
             </a>
-            <a href="/profile" className="h-[40px] md:h-[52px] px-3.5 md:px-8 rounded-[4px] bg-[var(--gold)] text-black flex items-center justify-center gap-2 text-[12px] md:text-base font-medium whitespace-nowrap hover:bg-[#d8a97e] transition-colors">
-              <FaFileLines className="size-3.5 md:size-4" />
+            <a href="/profile" className="h-[32px] md:h-[46px] px-2.5 md:px-6 rounded-[4px] bg-[var(--gold)] text-black flex items-center justify-center gap-1.5 md:gap-2 text-[10px] md:text-sm font-medium whitespace-nowrap hover:bg-[#d8a97e] transition-colors">
+              <FaFileLines className="size-3 md:size-3.5" />
               الملف التنفيذي
             </a>
           </div>

@@ -22,7 +22,6 @@ export default function NavBar() {
           <nav dir="rtl" className="max-md:hidden flex gap-10 text-sm text-[var(--muted)] pt-6">
             {links.map(([h, t]) => <a key={h} href={h} className="hover:text-[var(--gold)] transition-colors">{t}</a>)}
           </nav>
-          {/* معكوس: ☰ أقصى اليمين ثم الرئيسية على يسارها */}
           <div dir="rtl" className="flex items-start gap-4">
             <button aria-label="القائمة" onClick={() => setOpen(true)} className="md:hidden text-xl text-[var(--gold)] pt-3">☰</button>
             <a href="#home" className="flex flex-col items-center gap-1.5 pt-4 text-sm text-[var(--gold)] hover:text-[#d8a97e] transition-colors">
