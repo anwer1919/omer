@@ -11,7 +11,6 @@ export default function Hero() {
         <div className="relative z-10 flex flex-col md:w-[52%] md:ml-auto pt-2 md:pt-6">
           <h1 className="text-[36px] md:text-[68px] font-normal leading-[1.2]">عمر العُمر</h1>
           <p dir="ltr" className="font-sans text-[var(--gold)] tracking-[.2em] md:tracking-[.35em] text-[9px] md:text-sm mt-3 md:mt-5 text-right">FOUNDER • ENTREPRENEUR</p>
-          {/* الترتيب والأيقونات مثل الملف المرجعي بالضبط */}
           <div className="flex flex-row flex-wrap items-center gap-2 md:gap-4 mt-3 md:mt-10">
             <a href="/booking" className="h-[40px] md:h-[52px] px-3.5 md:px-8 rounded-[4px] border border-[var(--gold-dim)] flex items-center justify-center gap-2 text-[12px] md:text-base whitespace-nowrap hover:border-[var(--gold)] transition-colors">
               <FaCalendarDays className="size-3.5 md:size-4 text-[var(--gold)]" />
