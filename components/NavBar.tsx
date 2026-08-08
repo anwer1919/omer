@@ -15,15 +15,15 @@ export default function NavBar() {
   return (
     <>
       <header dir="ltr" className={`fixed top-0 inset-x-0 z-40 h-[72px] transition-colors ${scrolled ? 'bg-[var(--bg)]/90 backdrop-blur' : ''}`}>
-        {/* الشعار ملتصق بأقصى اليسار كما في المثال */}
-        <div className="max-w-[1200px] mx-auto h-full pl-2 pr-5 md:px-6 flex items-center justify-between">
-          <Link href="#home" className="grid place-items-center">
+        {/* الشعار أقصى اليسار وأعلى */}
+        <div className="max-w-[1200px] mx-auto h-full pl-1 pr-4 md:px-6 flex items-start justify-between">
+          <Link href="#home" className="grid place-items-center pt-2">
             <img src="/logo.png" alt="عمر العُمر" className="h-10 md:h-9 w-auto object-contain" />
           </Link>
-          <nav dir="rtl" className="max-md:hidden flex gap-10 text-sm text-[var(--muted)]">
+          <nav dir="rtl" className="max-md:hidden flex gap-10 text-sm text-[var(--muted)] pt-6">
             {links.map(([h, t]) => <a key={h} href={h} className="hover:text-[var(--gold)] transition-colors">{t}</a>)}
           </nav>
-          <button aria-label="القائمة" onClick={() => setOpen(true)} className="md:hidden text-xl text-[var(--gold)]">☰</button>
+          <button aria-label="القائمة" onClick={() => setOpen(true)} className="md:hidden text-xl text-[var(--gold)] pt-3">☰</button>
         </div>
       </header>
       {open && (
@@ -37,4 +37,3 @@ export default function NavBar() {
     </>
   );
 }
-
