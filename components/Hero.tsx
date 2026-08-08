@@ -6,8 +6,8 @@ export default function Hero() {
           <img src="/portrait.png" alt="عمر العُمر" className="absolute inset-y-0 right-0 h-full w-[114%] md:w-[110%] max-w-none object-contain object-top md:object-cover md:object-[center_8%] brightness-[1.6] contrast-[1.05]" />
           {/* تخفيف سطوع الوجه فقط */}
           <div className="absolute inset-0 bg-[radial-gradient(circle_at_32%_22%,rgba(0,0,0,.35),transparent_50%)]" />
-          {/* الظل يغطي منطقة الكتابة فقط ويتلاشى عند آخر حرف */}
-          <div className="absolute inset-0 bg-gradient-to-l from-[var(--bg)] from-10% via-[var(--bg)]/65 via-35% to-transparent to-55%" />
+          {/* الظل من بداية السطر الإنجليزي لآخره فقط */}
+          <div className="absolute inset-0 bg-gradient-to-l from-[var(--bg)] from-5% via-[var(--bg)]/65 via-30% to-transparent to-50%" />
         </div>
         <div className="relative z-10 flex flex-col md:w-[52%] md:ml-auto pt-2 md:pt-6">
           <h1 className="text-[36px] md:text-[68px] font-normal leading-[1.2]">عمر العُمر</h1>
