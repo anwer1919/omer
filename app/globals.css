@@ -19,7 +19,7 @@ html, body {
   max-width: 100vw;
   overscroll-behavior: none;
 }
-body { background: var(--bg); color: var(--text); font-family: var(--font-body), sans-serif; }
+body { background: var(--bg); color: var(--text); font-family: var(--font-amiri), serif; }
 @keyframes fade { from { opacity: 0 } to { opacity: 1 } }
 main { animation: fade .4s ease-out; }
 @media (prefers-reduced-motion: reduce) { * { animation: none !important; transition: none !important; } }
