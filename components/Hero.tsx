@@ -1,11 +1,13 @@
 export default function Hero() {
   return (
     <section id="home" className="relative overflow-hidden">
-      <div className="relative w-full px-5 md:px-14 pt-[84px] md:pt-[80px]">
+      {/* pb أسفل الأزرار يكبّر الصورة ويمدها تحتها، والتدرج يدمجها بما بعدها */}
+      <div className="relative w-full px-5 md:px-14 pt-[84px] md:pt-[80px] pb-6 md:pb-10">
         <div className="absolute inset-0">
-          <img src="/portrait.png" alt="عمر العُمر" className="absolute inset-y-0 right-0 h-full w-[118%] md:w-[112%] max-w-none object-cover object-[center_15%] md:object-[center_25%]" />
+          {/* الشخص أعلى اليسار */}
+          <img src="/portrait.png" alt="عمر العُمر" className="absolute inset-y-0 right-0 h-full w-[118%] md:w-[112%] max-w-none object-cover object-[center_0%] md:object-[center_10%]" />
           <div className="absolute inset-0 bg-gradient-to-l from-[var(--bg)] via-[var(--bg)]/40 to-transparent" />
-          <div className="absolute inset-x-0 bottom-0 h-[12%] bg-gradient-to-t from-[var(--bg)] to-transparent" />
+          <div className="absolute inset-x-0 bottom-0 h-[18%] bg-gradient-to-t from-[var(--bg)] to-transparent" />
         </div>
         <div className="relative z-10 flex flex-col md:w-[52%] md:ml-auto pt-2 md:pt-6">
           <h1 className="text-[34px] md:text-[68px] font-semibold leading-[1.2]">عمر العُمر</h1>
