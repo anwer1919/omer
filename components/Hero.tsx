@@ -3,8 +3,7 @@ export default function Hero() {
     <section id="home" className="relative overflow-hidden">
       <div className="relative w-full px-5 md:px-14 pt-[84px] md:pt-[80px]">
         <div className="absolute inset-0">
-          <img src="/portrait.png" alt="عمر العُمر"
-            className="absolute inset-y-0 right-0 h-full w-[118%] md:w-[112%] max-w-none object-cover object-[center_15%] md:object-[center_25%]" />
+          <img src="/portrait.png" alt="عمر العُمر" className="absolute inset-y-0 right-0 h-full w-[118%] md:w-[112%] max-w-none object-cover object-[center_15%] md:object-[center_25%]" />
           <div className="absolute inset-0 bg-gradient-to-l from-[var(--bg)] via-[var(--bg)]/40 to-transparent" />
           <div className="absolute inset-x-0 bottom-0 h-[12%] bg-gradient-to-t from-[var(--bg)] to-transparent" />
         </div>
@@ -21,3 +20,4 @@ export default function Hero() {
     </section>
   );
 }
+
