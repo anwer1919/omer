@@ -3,8 +3,11 @@ export default function Hero() {
     <section id="home" className="relative overflow-hidden">
       <div className="relative w-full px-4 md:px-14 pt-[84px] md:pt-[80px]">
         <div className="absolute inset-0">
-          <img src="/portrait.png" alt="عـمـر العـمـر" className="absolute inset-y-0 right-0 h-full w-[114%] md:w-[110%] max-w-none object-contain object-top md:object-cover md:object-[center_8%] brightness-[1.6] contrast-[1.05]" />
-          <div className="absolute inset-0 bg-gradient-to-l from-[var(--bg)] via-[var(--bg)]/35 via-30% to-transparent to-55%" />
+          <img src="/portrait.png" alt="عمر العُمر" className="absolute inset-y-0 right-0 h-full w-[114%] md:w-[110%] max-w-none object-contain object-top md:object-cover md:object-[center_8%] brightness-[1.6] contrast-[1.05]" />
+          {/* تخفيف سطوع الوجه فقط */}
+          <div className="absolute inset-0 bg-[radial-gradient(circle_at_32%_22%,rgba(0,0,0,.35),transparent_50%)]" />
+          {/* ظل قوي من اليمين مكان الكتابة والأزرار */}
+          <div className="absolute inset-0 bg-gradient-to-l from-[var(--bg)] from-15% via-[var(--bg)]/60 via-40% to-transparent to-60%" />
         </div>
         <div className="relative z-10 flex flex-col md:w-[52%] md:ml-auto pt-2 md:pt-6">
           <h1 className="text-[36px] md:text-[68px] font-normal leading-[1.2]">عمر العُمر</h1>
