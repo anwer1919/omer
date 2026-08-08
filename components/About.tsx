@@ -1,6 +1,6 @@
 export default function About() {
   return (
-    <section id="about" className="pt-[100px] pb-3 max-md:pt-4 max-md:pb-1 px-6 text-center bg-[var(--bg2)]">
+    <section id="about" className="pt-[100px] pb-3 max-md:pt-4 max-md:pb-1 px-3 md:px-6 text-center bg-[var(--bg2)]">
       <p className="text-sm text-[var(--gold)] mb-3 md:mb-10">نبذة</p>
       <p className="max-w-[760px] mx-auto text-base md:text-lg leading-[1.9] md:leading-[2.1]">
         رائد أعمال سعودي بخبرة تمتد لأكثر من عشرين عامًا في بناء الأسواق وتطوير الأعمال، وأعمل اليوم على تأسيس علامات سعودية مستقلة بمعايير عالية وهوية طويلة الأمد.
