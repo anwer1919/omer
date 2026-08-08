@@ -15,9 +15,7 @@ export default function Home() {
       <OaDivider />
       <Statement />
       <Work />
-      <OaDivider />
       <About />
-      <OaDivider />
       <Social />
       <Footer />
     </main>
