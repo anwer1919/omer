@@ -8,8 +8,8 @@
   --card: #0A0A0A;
   --text: #F2EEE8;
   --muted: #A8A29A;
-  --gold: #C3A168;
-  --gold-dim: rgba(195,161,104,.35);
+  --gold: #C98A5E;
+  --gold-dim: rgba(201,138,94,.35);
   --divider: rgba(242,238,232,.1);
 }
 html { scroll-behavior: smooth; }
