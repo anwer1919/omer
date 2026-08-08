@@ -13,7 +13,7 @@ export default function Hero() {
           <h1 className="text-[36px] md:text-[68px] font-normal leading-[1.2]">عمر العُمر</h1>
           <p dir="ltr" className="text-[var(--gold)] tracking-[.2em] md:tracking-[.35em] text-[9px] md:text-sm mt-4 md:mt-5 text-right">FOUNDER • ENTREPRENEUR</p>
           <div className="flex flex-row flex-wrap items-center gap-2 md:gap-4 mt-4 md:mt-10">
-            <a href="/profile" className="h-[40px] md:h-[52px] px-3.5 md:px-8 rounded-[4px] bg-[var(--gold)] text-black grid place-items-center text-[12px] md:text-base font-medium whitespace-nowrap hover:bg-[#d1b07a] transition-colors">الملف التنفيذي</a>
+            <a href="/profile" className="h-[40px] md:h-[52px] px-3.5 md:px-8 rounded-[4px] bg-[var(--gold)] text-black grid place-items-center text-[12px] md:text-base font-medium whitespace-nowrap hover:bg-[#d8a97e] transition-colors">الملف التنفيذي</a>
             <a href="/booking" className="h-[40px] md:h-[52px] px-3.5 md:px-8 rounded-[4px] border border-[var(--gold-dim)] grid place-items-center text-[12px] md:text-base whitespace-nowrap hover:border-[var(--gold)] transition-colors">طلب اجتماع</a>
           </div>
         </div>
