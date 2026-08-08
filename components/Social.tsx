@@ -1,6 +1,6 @@
 'use client';
 import { useState } from 'react';
-import { FaSnapchat, FaTiktok, FaXTwitter, FaInstagram, FaYoutube, FaLinkedinIn, FaGlobe } from 'react-icons/fa6';
+import { FaSnapchat, FaTiktok, FaXTwitter, FaInstagram, FaYoutube, FaLinkedinIn, FaGlobe, FaEnvelope } from 'react-icons/fa6';
 
 const items = [
   { Icon: FaSnapchat, label: 'Snapchat', href: 'https://www.snapchat.com/add/h77_cz' },
@@ -14,19 +14,20 @@ const items = [
 export default function Social() {
   const [sites, setSites] = useState(false);
   return (
-    <section id="contact" className="pt-14 pb-6 max-md:pt-6 max-md:pb-3 px-6 text-center">
-      <div dir="ltr" className="max-w-[1000px] mx-auto flex max-md:flex-wrap justify-center gap-2 md:gap-6">
+    <section id="contact" className="pt-14 pb-6 max-md:pt-6 max-md:pb-3 px-4 md:px-6 text-center">
+      {/* السبع أيقونات على سطر واحد دائمًا */}
+      <div dir="ltr" className="max-w-[1000px] mx-auto flex justify-center md:gap-6">
         {items.map(({ Icon, label, href }) => (
           <a key={label} href={href} target={href.startsWith('http') ? '_blank' : undefined}
-             className="flex flex-col items-center gap-3 px-4 py-3 text-[var(--gold)] hover:text-[#d1b07a] transition-colors">
-            <Icon className="size-5" />
-            <span dir="ltr" className="text-[11px] tracking-wider text-[var(--muted)]">{label}</span>
+             className="flex flex-col items-center gap-2 md:gap-3 max-md:px-1.5 md:px-4 py-3 text-[var(--gold)] hover:text-[#d1b07a] transition-colors">
+            <Icon className="size-4 md:size-5" />
+            <span dir="ltr" className="text-[8px] md:text-[11px] tracking-wider text-[var(--muted)]">{label}</span>
           </a>
         ))}
         <div className="relative">
-          <button onClick={() => setSites(!sites)} className="flex flex-col items-center gap-3 px-4 py-3 text-[var(--gold)] hover:text-[#d1b07a] transition-colors">
-            <FaGlobe className="size-5" />
-            <span dir="ltr" className="text-[11px] tracking-wider text-[var(--muted)]">Websites</span>
+          <button onClick={() => setSites(!sites)} className="flex flex-col items-center gap-2 md:gap-3 max-md:px-1.5 md:px-4 py-3 text-[var(--gold)] hover:text-[#d1b07a] transition-colors">
+            <FaGlobe className="size-4 md:size-5" />
+            <span dir="ltr" className="text-[8px] md:text-[11px] tracking-wider text-[var(--muted)]">Websites</span>
           </button>
           {sites && (
             <div dir="rtl" className="absolute bottom-full right-1/2 translate-x-1/2 mb-2 flex flex-col gap-2 rounded-[6px] bg-[var(--card)] border border-[var(--divider)] p-4 text-sm whitespace-nowrap z-10">
@@ -36,11 +37,19 @@ export default function Social() {
           )}
         </div>
       </div>
-      <p dir="ltr" className="mt-6 md:mt-10 text-sm text-[var(--muted)] tracking-wider">
-        <a href="mailto:EDMARK@live.in" className="hover:text-[var(--gold)] transition-colors">EDMARK@live.in</a>
-        <span className="mx-2">•</span>
-        omar-alomar.com
+      {/* البريد والموقع مع أيقونتيهما */}
+      <p dir="ltr" className="mt-6 md:mt-10 text-[12px] md:text-sm text-[var(--muted)] tracking-wider flex items-center justify-center flex-wrap gap-2 md:gap-3">
+        <a href="mailto:EDMARK@live.in" className="flex items-center gap-2 hover:text-[var(--gold)] transition-colors">
+          <FaEnvelope className="size-3.5 md:size-4 text-[var(--gold)]" />
+          EDMARK@live.in
+        </a>
+        <span className="mx-1">•</span>
+        <a href="https://omar-alomar.com" className="flex items-center gap-2 hover:text-[var(--gold)] transition-colors">
+          <FaGlobe className="size-3.5 md:size-4 text-[var(--gold)]" />
+          omar-alomar.com
+        </a>
       </p>
     </section>
   );
 }
+
