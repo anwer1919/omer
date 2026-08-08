@@ -17,12 +17,19 @@ export default function NavBar() {
       <header dir="ltr" className={`fixed top-0 inset-x-0 z-40 h-[72px] transition-colors ${scrolled ? 'bg-[var(--bg)]/90 backdrop-blur' : ''}`}>
         <div className="max-w-[1200px] mx-auto h-full pl-1 pr-4 md:px-6 flex items-start justify-between">
           <Link href="#home" className="grid place-items-center pt-1 bg-black">
-            <img src="/logo.png" alt="عمر العُمر" className="h-12 md:h-10 w-auto object-contain hue-rotate-[-10deg] saturate-[1.15]" />
+            <img src="/logo.png" alt="عمر العُمر" className="h-12 md:h-10 w-auto object-contain hue-rotate-[-12deg] saturate-[1.3]" />
           </Link>
           <nav dir="rtl" className="max-md:hidden flex gap-10 text-sm text-[var(--muted)] pt-6">
             {links.map(([h, t]) => <a key={h} href={h} className="hover:text-[var(--gold)] transition-colors">{t}</a>)}
           </nav>
-          <button aria-label="القائمة" onClick={() => setOpen(true)} className="md:hidden text-xl text-[var(--gold)] pt-3">☰</button>
+          {/* الرئيسية + خط نحاسي تحتها، بجانب القائمة */}
+          <div dir="rtl" className="flex items-start gap-4">
+            <a href="#home" className="flex flex-col items-center gap-1.5 pt-4 text-sm text-[var(--gold)]">
+              الرئيسية
+              <span className="h-px w-7 bg-[var(--gold)]" />
+            </a>
+            <button aria-label="القائمة" onClick={() => setOpen(true)} className="md:hidden text-xl text-[var(--gold)] pt-3">☰</button>
+          </div>
         </div>
       </header>
       {open && (
