@@ -15,17 +15,16 @@ export default function Social() {
   const [sites, setSites] = useState(false);
   return (
     <section id="contact" className="overflow-hidden pt-14 pb-6 max-md:pt-3 max-md:pb-1 px-3 md:px-6 text-center">
-      {/* الصفّ مضغوط ليدخل أي عرض شاشة بالضبط */}
       <div dir="ltr" className="max-w-[1000px] mx-auto flex justify-center md:gap-6">
         {items.map(({ Icon, label, href }) => (
           <a key={label} href={href} target={href.startsWith('http') ? '_blank' : undefined}
-             className="flex flex-col items-center gap-2 md:gap-3 max-md:px-1 md:px-4 py-3 text-[var(--gold)] hover:text-[#d1b07a] transition-colors">
+             className="flex flex-col items-center gap-2 md:gap-3 max-md:px-1 md:px-4 py-3 text-[var(--gold)] hover:text-[#d8a97e] transition-colors">
             <Icon className="size-4 md:size-5" />
             <span dir="ltr" className="text-[7px] md:text-[11px] max-md:tracking-normal md:tracking-wider text-[var(--muted)]">{label}</span>
           </a>
         ))}
         <div className="relative">
-          <button onClick={() => setSites(!sites)} className="flex flex-col items-center gap-2 md:gap-3 max-md:px-1 md:px-4 py-3 text-[var(--gold)] hover:text-[#d1b07a] transition-colors">
+          <button onClick={() => setSites(!sites)} className="flex flex-col items-center gap-2 md:gap-3 max-md:px-1 md:px-4 py-3 text-[var(--gold)] hover:text-[#d8a97e] transition-colors">
             <FaGlobe className="size-4 md:size-5" />
             <span dir="ltr" className="text-[7px] md:text-[11px] max-md:tracking-normal md:tracking-wider text-[var(--muted)]">Websites</span>
           </button>
