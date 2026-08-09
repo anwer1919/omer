@@ -23,6 +23,17 @@
 }
 .gold-shine {
   background: linear-gradient(180deg, #F2D7A8 0%, #DCAC76 50%, #C98A5E 100%);
+/* أزرار نحاسية لامعة */
+.copper-btn {
+  background: linear-gradient(135deg, #a0522d 0%, #b87333 50%, #cd853f 100%);
+  box-shadow: 0 0 12px rgba(184, 115, 51, .35), inset 0 1px 0 rgba(255,255,255,.15);
+  transition: all .3s ease;
+}
+
+.copper-btn:hover {
+  background: linear-gradient(135deg, #b87333 0%, #cd853f 50%, #daa06d 100%);
+  box-shadow: 0 0 20px rgba(184, 115, 51, .6), inset 0 1px 0 rgba(255,255,255,.2);
+}
   -webkit-background-clip: text;
   background-clip: text;
   color: transparent;
