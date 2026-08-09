@@ -12,13 +12,17 @@
   --gold: #C98A5E;
   --gold-dim: rgba(201,138,94,.35);
   --champagne: #C3A168;
+  --champagne-deep: #B99258;
   --divider: rgba(242,238,232,.1);
 }
 .gold-shine {
-  background: linear-gradient(180deg, #DBB385 0%, #D09D6D 55%, #C98A5E 100%);
+  background: linear-gradient(180deg, #F2D7A8 0%, #DCAC76 50%, #C98A5E 100%);
   -webkit-background-clip: text;
   background-clip: text;
   color: transparent;
+}
+.line-shine {
+  background: linear-gradient(90deg, rgba(195,161,104,.35) 0%, #E8C495 50%, rgba(195,161,104,.35) 100%);
 }
 html { scroll-behavior: smooth; }
 html, body {
