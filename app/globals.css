@@ -15,7 +15,7 @@
   --divider: rgba(242,238,232,.1);
 }
 .gold-shine {
-  background: linear-gradient(180deg, #E8C495 0%, #D8A773 55%, #C98A5E 100%);
+  background: linear-gradient(180deg, #DBB385 0%, #D09D6D 55%, #C98A5E 100%);
   -webkit-background-clip: text;
   background-clip: text;
   color: transparent;
