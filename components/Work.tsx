@@ -7,14 +7,14 @@ const cards = [
 export default function Work() {
   return (
     <section id="work" className="py-1 md:py-3 px-3 md:px-6 bg-[var(--bg)]">
-      <p className="text-center text-sm text-[var(--gold)] mb-1 md:mb-4">العلامات</p>
+      <p className="gold-shine text-center text-base md:text-lg mb-1 md:mb-4">العلامات</p>
       <div className="max-w-[1200px] mx-auto grid grid-cols-3 gap-2 md:gap-6">
         {cards.map(c => {
           const cls = 'group relative overflow-hidden aspect-[3/4] rounded-[6px] border border-[var(--gold-dim)] bg-[var(--card)] flex flex-col transition-transform duration-300 hover:scale-[1.02]';
           const inner = (
             <>
               <div className="p-2 md:p-6 pt-2 md:pt-4 text-center">
-                <h3 className="text-[13px] md:text-2xl font-medium text-[var(--gold)]">{c.name}</h3>
+                <h3 className="gold-shine text-[13px] md:text-2xl font-medium">{c.name}</h3>
                 <p className="text-[9px] md:text-sm text-[var(--muted)] leading-[1.7] md:leading-[1.9] mt-1 md:mt-2">{c.desc}</p>
               </div>
               <div className="relative flex-1 mt-1 md:mt-2">
