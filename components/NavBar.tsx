@@ -24,7 +24,7 @@ export default function NavBar() {
           </nav>
           <div dir="rtl" className="flex items-start gap-4">
             <button aria-label="القائمة" onClick={() => setOpen(true)} className="md:hidden text-xl text-[var(--gold)] pt-3">☰</button>
-            <a href="#home" className="flex flex-col items-center gap-1.5 pt-4 text-sm text-[var(--gold)] hover:text-[#d8a97e] transition-colors">
+            <a href="#home" className="flex flex-col items-center gap-1.5 pt-4 text-sm text-[var(--text)] hover:text-[var(--gold)] transition-colors">
               الرئيسية
               <span className="h-px w-7 bg-[var(--champagne)]" />
             </a>
@@ -34,7 +34,7 @@ export default function NavBar() {
       {open && (
         <div className="fixed inset-0 z-50 bg-[var(--bg)] grid place-items-center">
           <button aria-label="إغلاق" onClick={() => setOpen(false)} className="absolute top-6 left-6 text-2xl">✕</button>
-          <nav className="flex flex-col gap-8 text-center text-xl">
+          <nav className="flex flex-col gap-8 text-center text-xl text-[var(--text)]">
             {links.map(([h, t]) => <a key={h} href={h} onClick={() => setOpen(false)}>{t}</a>)}
           </nav>
         </div>
