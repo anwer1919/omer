@@ -14,6 +14,12 @@
   --champagne: #C3A168;
   --divider: rgba(242,238,232,.1);
 }
+.gold-shine {
+  background: linear-gradient(180deg, #E8C495 0%, #D8A773 55%, #C98A5E 100%);
+  -webkit-background-clip: text;
+  background-clip: text;
+  color: transparent;
+}
 html { scroll-behavior: smooth; }
 html, body {
   overflow-x: hidden;
