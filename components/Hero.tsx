@@ -11,7 +11,8 @@ export default function Hero() {
         </div>
         <div className="relative z-10 flex flex-col md:w-[45%] md:ml-auto pt-2 md:pt-6">
           <h1 className="text-[36px] md:text-[68px] font-normal leading-[1.2] text-[var(--text)]">عمر العُمر</h1>
-          <span className="block h-px w-10 md:w-14 bg-[var(--champagne)] mt-2 md:mt-4" />
+          {/* الخط الشمباني في المنتصف فوق الكلمة الإنجليزية */}
+          <span className="block h-px w-10 md:w-14 bg-[var(--champagne)] mt-2 md:mt-4 mx-auto" />
           <p dir="ltr" className="font-sans text-[var(--gold)] tracking-[.2em] md:tracking-[.35em] text-[9px] md:text-sm mt-2 md:mt-4 text-right">FOUNDER • ENTREPRENEUR</p>
           <div className="flex flex-row flex-wrap items-center gap-2 md:gap-4 mt-3 md:mt-10">
             <a href="/booking" className="h-[32px] md:h-[46px] px-2.5 md:px-6 rounded-[4px] border border-[var(--gold-dim)] flex items-center justify-center gap-1.5 md:gap-2 text-[10px] md:text-sm whitespace-nowrap text-[var(--text)] hover:border-[var(--gold)] transition-colors">
