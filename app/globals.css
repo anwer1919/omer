@@ -15,6 +15,12 @@
   --champagne-deep: #B99258;
   --divider: rgba(242,238,232,.1);
 }
+.logo-name {
+  font-family: 'Aref Ruqaa', var(--font-aref), serif;
+  font-weight: 400;
+  line-height: 1.2;
+  color: var(--text);
+}
 .gold-shine {
   background: linear-gradient(180deg, #F2D7A8 0%, #DCAC76 50%, #C98A5E 100%);
   -webkit-background-clip: text;
