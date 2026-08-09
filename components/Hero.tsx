@@ -2,7 +2,7 @@ import { FaFileLines, FaCalendarDays } from 'react-icons/fa6';
 
 export default function Hero() {
   return (
-    <section id="home" className="relative overflow-hidden">
+    <section id="home" className="relative overflow-hidden bg-[var(--bg)]">
       <div className="relative w-full px-4 md:px-14 pt-[84px] md:pt-[80px]">
         <div className="absolute inset-0">
           {/* جوال: الصورة كاملة كما كانت سابقًا — ديسكتوب: يسار 55% */}
