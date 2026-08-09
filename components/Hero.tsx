@@ -5,12 +5,14 @@ export default function Hero() {
     <section id="home" className="relative overflow-hidden">
       <div className="relative w-full px-4 md:px-14 pt-[84px] md:pt-[80px]">
         <div className="absolute inset-0">
-          <img src="/portrait.png" alt="عمر العُمر" className="absolute inset-y-0 left-0 h-full w-full max-w-none object-contain object-[0%_0%] md:object-cover md:object-[center_8%] brightness-[1.15] contrast-[1.05]" />
-          <div className="absolute inset-0 bg-gradient-to-l from-[var(--bg)] from-35% via-[var(--bg)]/75 via-55% to-transparent to-80%" />
+          {/* ديسكتوب: الصورة تشغل ~55% يسار والنص يمين — جوال: قصّ من منتصف الجذع فأعلى */}
+          <img src="/portrait.png" alt="عمر العُمر"
+            className="absolute inset-y-0 left-0 h-full w-full md:w-[55%] object-cover object-[left_25%] md:object-[30%_25%] brightness-[1.05] contrast-[1.02]" />
+          {/* دمج هادئ بين حافة الصورة والنص يمين */}
+          <div className="absolute inset-0 bg-gradient-to-l from-[var(--bg)] from-45% via-[var(--bg)]/60 via-58% to-transparent to-70%" />
         </div>
-        <div className="relative z-10 flex flex-col md:w-[52%] md:ml-auto pt-2 md:pt-6">
+        <div className="relative z-10 flex flex-col md:w-[45%] md:ml-auto pt-2 md:pt-6">
           <h1 className="text-[36px] md:text-[68px] font-normal leading-[1.2]">عمر العُمر</h1>
-          {/* الخط القصير النحاسي بين الاسم والسطر الإنجليزي */}
           <span className="block h-px w-10 md:w-14 bg-[var(--gold)] mt-2 md:mt-4" />
           <p dir="ltr" className="font-sans text-[var(--gold)] tracking-[.2em] md:tracking-[.35em] text-[9px] md:text-sm mt-2 md:mt-4 text-right">FOUNDER • ENTREPRENEUR</p>
           <div className="flex flex-row flex-wrap items-center gap-2 md:gap-4 mt-3 md:mt-10">
