@@ -10,6 +10,7 @@
   --muted: #A8A29A;
   --gold: #C98A5E;
   --gold-dim: rgba(201,138,94,.35);
+  --champagne: #C3A168;
   --divider: rgba(242,238,232,.1);
 }
 html { scroll-behavior: smooth; }
