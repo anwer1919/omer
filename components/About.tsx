@@ -1,6 +1,6 @@
 export default function About() {
   return (
-    <section id="about" className="pt-[100px] pb-3 max-md:pt-1 max-md:pb-0.5 px-3 md:px-6 text-center bg-[var(--bg)]">
+    <section id="about" className="pt-[100px] pb-3 max-md:pt-1 max-md:pb-0.5 px-3 md:px-6 text-center bg-[var(--bg2)]">
       <p className="text-sm text-[var(--gold)] mb-2 md:mb-10">نبذة</p>
       <p className="max-w-[760px] mx-auto text-base md:text-lg leading-[1.9] md:leading-[2.1]">
         عشرون عامًا في بناء الأسواق والتوسع، واليوم أصنع علامات سعودية ذات أثر يبقى.
