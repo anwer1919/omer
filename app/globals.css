@@ -47,23 +47,6 @@ h1, h2, h3 {
   animation: goldShine 4s linear infinite;
 }
 
-/* زر ذهبي لامع متحرك */
-@keyframes goldBtnShine {
-  0% { background-position: 200% center; }
-  100% { background-position: -200% center; }
-}
-
-.btn-gold-shine {
-  background: linear-gradient(110deg, #8a6d3b 20%, #f7e7b4 40%, #fffbe6 50%, #f7e7b4 60%, #8a6d3b 80%);
-  background-size: 200% auto;
-  animation: goldBtnShine 3s linear infinite;
-  box-shadow: 0 0 18px rgba(212, 175, 55, .4);
-}
-
-.btn-gold-shine:hover {
-  box-shadow: 0 0 28px rgba(212, 175, 55, .7);
-}
-
 /* تحديد النص */
 ::selection {
   background: rgba(212, 175, 55, .3);
