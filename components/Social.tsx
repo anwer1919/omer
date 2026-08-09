@@ -14,17 +14,17 @@ const items = [
 export default function Social() {
   const [sites, setSites] = useState(false);
   return (
-    <section id="contact" className="overflow-hidden pt-14 pb-6 max-md:pt-1 max-md:pb-0.5 px-3 md:px-6 text-center bg-[var(--bg3)]">
+    <section id="contact" className="overflow-hidden py-2 md:py-4 px-3 md:px-6 text-center bg-[var(--bg3)]">
       <div dir="ltr" className="max-w-[1000px] mx-auto flex justify-center md:gap-6">
         {items.map(({ Icon, label, href }) => (
           <a key={label} href={href} target={href.startsWith('http') ? '_blank' : undefined}
-             className="flex flex-col items-center gap-2 md:gap-3 max-md:px-1 md:px-4 py-3 text-[var(--gold)] hover:text-[var(--champagne)] transition-colors">
+             className="flex flex-col items-center gap-1 md:gap-2 max-md:px-1 md:px-4 py-2 text-[var(--gold)] hover:text-[var(--champagne)] transition-colors">
             <Icon className="size-4 md:size-5" />
             <span dir="ltr" className="text-[7px] md:text-[11px] max-md:tracking-normal md:tracking-wider text-[var(--muted)]">{label}</span>
           </a>
         ))}
         <div className="relative">
-          <button onClick={() => setSites(!sites)} className="flex flex-col items-center gap-2 md:gap-3 max-md:px-1 md:px-4 py-3 text-[var(--gold)] hover:text-[var(--champagne)] transition-colors">
+          <button onClick={() => setSites(!sites)} className="flex flex-col items-center gap-1 md:gap-2 max-md:px-1 md:px-4 py-2 text-[var(--gold)] hover:text-[var(--champagne)] transition-colors">
             <FaGlobe className="size-4 md:size-5" />
             <span dir="ltr" className="text-[7px] md:text-[11px] max-md:tracking-normal md:tracking-wider text-[var(--muted)]">Websites</span>
           </button>
@@ -36,7 +36,7 @@ export default function Social() {
           )}
         </div>
       </div>
-      <p dir="ltr" className="mt-2 md:mt-10 text-[12px] md:text-sm text-[var(--muted)] tracking-wider flex items-center justify-center flex-wrap gap-2 md:gap-3">
+      <p dir="ltr" className="mt-1 md:mt-3 text-[12px] md:text-sm text-[var(--muted)] tracking-wider flex items-center justify-center flex-wrap gap-2 md:gap-3">
         <a href="mailto:EDMARK@live.in" className="flex items-center gap-2 hover:text-[var(--gold)] transition-colors">
           <FaEnvelope className="size-3.5 md:size-4 text-[var(--gold)]" />
           EDMARK@live.in
