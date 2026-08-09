@@ -1,7 +1,7 @@
 const cards = [
-  { name: 'EDMARK', desc: '20 عامًا من الخبرة في بناء الأسواق وتطوير الأعمال عبر أكثر من 40 دولة.', img: '/logos/edmark-new.png', href: null },
-  { name: 'HOWK', desc: 'دار أزياء سعودية فاخرة تقوم على الندرة والحِرفة والتميّز.', img: '/logos/howk-new.png', href: 'https://howkworld.com/ar' },
-  { name: 'نقوة الدار', desc: 'علامة سعودية للمنتجات المنزلية، تضع الجودة والثقة في صميم التجربة.', img: '/logos/naqwa-new.png', href: '#' },
+  { name: 'EDMARK', desc: '20 عامًا من الخبرة في بناء الأسواق وتطوير الأعمال عبر أكثر من 40 دولة.', img: '/logos/edmark-new.png', href: null, pos: 'object-[center_40%] max-md:object-[center_55%]' },
+  { name: 'HOWK', desc: 'دار أزياء سعودية فاخرة تقوم على الندرة والحِرفة والتميّز.', img: '/logos/howk-new.png', href: 'https://howkworld.com/ar', pos: 'object-[center_25%]' },
+  { name: 'نقوة الدار', desc: 'علامة سعودية للمنتجات المنزلية، تضع الجودة والثقة في صميم التجربة.', img: '/logos/naqwa-new.png', href: '#', pos: 'object-[center_40%] max-md:object-[center_55%]' },
 ];
 
 export default function Work() {
@@ -14,7 +14,7 @@ export default function Work() {
           const inner = (
             <>
               <img src={c.img} alt={c.name}
-                className="absolute inset-0 size-full object-cover object-[center_25%] group-hover:brightness-110 transition" />
+                className={`absolute inset-0 size-full object-cover ${c.pos} group-hover:brightness-110 transition`} />
               <div className="relative z-10 p-2 md:p-6 pt-3 md:pt-6 text-center">
                 <h3 className="gold-shine text-[13px] md:text-2xl font-medium [text-shadow:0_2px_10px_rgba(0,0,0,.9)]">{c.name}</h3>
                 <p className="text-[9px] md:text-sm text-[var(--text)] leading-[1.7] md:leading-[1.9] mt-1 md:mt-2 [text-shadow:0_1px_6px_rgba(0,0,0,.95)]">{c.desc}</p>
