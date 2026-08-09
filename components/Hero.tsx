@@ -10,7 +10,7 @@ export default function Hero() {
           <div className="absolute inset-0 bg-gradient-to-l from-[var(--bg)] from-45% via-[var(--bg)]/60 via-58% to-transparent to-70%" />
         </div>
         <div className="relative z-10 flex flex-col md:w-[45%] md:ml-auto">
-          <h1 className="logo-name text-[44px] md:text-[60px] font-normal leading-[1.2] text-[var(--text)]">عمر العُمر</h1>
+          <h1 className="text-[36px] md:text-[68px] font-normal leading-[1.2] text-[var(--text)]">عمر العُمر</h1>
           <span className="line-shine block h-px w-10 md:w-14 mt-1 md:mt-2" />
           <p dir="ltr" className="gold-shine font-sans tracking-[.2em] md:tracking-[.35em] text-[9px] md:text-sm mt-1 md:mt-2 text-right">FOUNDER • ENTREPRENEUR</p>
           <div className="flex flex-row flex-wrap items-center gap-2 md:gap-4 mt-2 md:mt-4">
