@@ -18,13 +18,13 @@ export default function Social() {
       <div dir="ltr" className="max-w-[1000px] mx-auto flex justify-center md:gap-6">
         {items.map(({ Icon, label, href }) => (
           <a key={label} href={href} target={href.startsWith('http') ? '_blank' : undefined}
-             className="flex flex-col items-center gap-2 md:gap-3 max-md:px-1 md:px-4 py-3 text-[var(--gold)] hover:text-[#d8a97e] transition-colors">
+             className="flex flex-col items-center gap-2 md:gap-3 max-md:px-1 md:px-4 py-3 text-[var(--gold)] hover:text-[var(--champagne)] transition-colors">
             <Icon className="size-4 md:size-5" />
             <span dir="ltr" className="text-[7px] md:text-[11px] max-md:tracking-normal md:tracking-wider text-[var(--muted)]">{label}</span>
           </a>
         ))}
         <div className="relative">
-          <button onClick={() => setSites(!sites)} className="flex flex-col items-center gap-2 md:gap-3 max-md:px-1 md:px-4 py-3 text-[var(--gold)] hover:text-[#d8a97e] transition-colors">
+          <button onClick={() => setSites(!sites)} className="flex flex-col items-center gap-2 md:gap-3 max-md:px-1 md:px-4 py-3 text-[var(--gold)] hover:text-[var(--champagne)] transition-colors">
             <FaGlobe className="size-4 md:size-5" />
             <span dir="ltr" className="text-[7px] md:text-[11px] max-md:tracking-normal md:tracking-wider text-[var(--muted)]">Websites</span>
           </button>
