@@ -5,10 +5,9 @@ export default function Hero() {
     <section id="home" className="relative overflow-hidden">
       <div className="relative w-full px-4 md:px-14 pt-[84px] md:pt-[80px]">
         <div className="absolute inset-0">
-          {/* ديسكتوب: الصورة تشغل ~55% يسار والنص يمين — جوال: قصّ من منتصف الجذع فأعلى */}
+          {/* جوال: الصورة كاملة كما كانت سابقًا — ديسكتوب: يسار 55% */}
           <img src="/portrait.png" alt="عمر العُمر"
-            className="absolute inset-y-0 left-0 h-full w-full md:w-[55%] object-cover object-[left_25%] md:object-[30%_25%] brightness-[1.05] contrast-[1.02]" />
-          {/* دمج هادئ بين حافة الصورة والنص يمين */}
+            className="absolute inset-y-0 left-0 h-full w-full md:w-[55%] object-contain object-[0%_0%] md:object-cover md:object-[30%_25%] brightness-[1.05] contrast-[1.02]" />
           <div className="absolute inset-0 bg-gradient-to-l from-[var(--bg)] from-45% via-[var(--bg)]/60 via-58% to-transparent to-70%" />
         </div>
         <div className="relative z-10 flex flex-col md:w-[45%] md:ml-auto pt-2 md:pt-6">
