@@ -1,7 +1,7 @@
 const cards = [
-  { name: 'EDMARK', desc: '20 عامًا من الخبرة في بناء الأسواق وتطوير الأعمال عبر أكثر من 40 دولة.', img: '/logos/edmark.png', href: null },
-  { name: 'HOWK', desc: 'دار أزياء سعودية فاخرة تقوم على الندرة والحِرفة والتميّز.', img: '/logos/howk.png', href: 'https://howkworld.com/ar' },
-  { name: 'نقوة الدار', desc: 'علامة سعودية للمنتجات المنزلية، تضع الجودة والثقة في صميم التجربة.', img: '/logos/naqwa.png', href: '#' },
+  { name: 'EDMARK', desc: '20 عامًا من الخبرة في بناء الأسواق وتطوير الأعمال عبر أكثر من 40 دولة.', img: '/logos/edmark-new.png', href: null },
+  { name: 'HOWK', desc: 'دار أزياء سعودية فاخرة تقوم على الندرة والحِرفة والتميّز.', img: '/logos/howk-new.png', href: 'https://howkworld.com/ar' },
+  { name: 'نقوة الدار', desc: 'علامة سعودية للمنتجات المنزلية، تضع الجودة والثقة في صميم التجربة.', img: '/logos/naqwa-new.png', href: '#' },
 ];
 
 export default function Work() {
@@ -15,7 +15,7 @@ export default function Work() {
             <>
               {/* الصورة بنفس حجم البطاقة بالضبط — بدون أي حواف */}
               <img src={c.img} alt={c.name}
-                className="absolute inset-0 size-full object-cover mix-blend-screen group-hover:brightness-110 transition" />
+                className="absolute inset-0 size-full object-cover group-hover:brightness-110 transition" />
               {/* النص شفاف يطفو فوق الصورة */}
               <div className="relative z-10 p-2 md:p-6 pt-3 md:pt-6 text-center">
                 <h3 className="gold-shine text-[13px] md:text-2xl font-medium [text-shadow:0_2px_10px_rgba(0,0,0,.9)]">{c.name}</h3>
