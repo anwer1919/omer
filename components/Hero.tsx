@@ -9,7 +9,7 @@ export default function Hero() {
       </p>
 
       <div className="flex items-center justify-center gap-2 md:gap-4 flex-wrap">
-        <a href="/profile" className="btn-gold-shine h-[32px] md:h-[46px] px-2.5 md:px-6 rounded-[4px] text-black flex items-center justify-center gap-1.5 md:gap-2 text-[10px] md:text-sm font-semibold whitespace-nowrap transition-shadow">
+        <a href="/profile" className="h-[32px] md:h-[46px] px-2.5 md:px-6 rounded-[4px] bg-[var(--gold)] text-black flex items-center justify-center gap-1.5 md:gap-2 text-[10px] md:text-sm font-medium whitespace-nowrap hover:bg-[#d8a97e] transition-colors">
           <FaFileLines className="size-3 md:size-3.5" />
           الملف التنفيذي
         </a>
