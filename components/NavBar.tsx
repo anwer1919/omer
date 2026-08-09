@@ -26,7 +26,7 @@ export default function NavBar() {
             <button aria-label="القائمة" onClick={() => setOpen(true)} className="md:hidden text-xl text-[var(--gold)] pt-3">☰</button>
             <a href="#home" className="flex flex-col items-center gap-1.5 pt-4 text-sm text-[var(--gold)] hover:text-[#d8a97e] transition-colors">
               الرئيسية
-              <span className="h-px w-7 bg-[var(--gold)]" />
+              <span className="h-px w-7 bg-[var(--champagne)]" />
             </a>
           </div>
         </div>
