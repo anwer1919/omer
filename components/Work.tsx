@@ -1,7 +1,7 @@
 const cards = [
   { name: 'EDMARK', desc: '20 عامًا من الخبرة في بناء الأسواق وتطوير الأعمال عبر أكثر من 48 دولة.', img: '/logos/edmark-new.png', href: null, pos: 'top-[16%] bottom-[-16%] max-md:top-[24%] max-md:bottom-[-24%]' },
   { name: 'HOWK', desc: 'دار أزياء سعودية فاخرة تقوم على الندرة والحِرفة والتميّز.', img: '/logos/howk-new.png', href: 'https://howkworld.com/ar', pos: 'inset-0' },
-  { name: 'نقوة الدار', desc: 'علامة سعودية للمنتجات المنزلية، تضع الجودة والثقة في صميم التجربة.', img: '/logos/naqwa-new.png', href: '#', pos: 'top-[16%] bottom-[-16%] max-md:top-[24%] max-md:bottom-[-24%]' },
+  { name: 'نقوة الدار', desc: 'علامة سعودية للمنتجات المنزلية، تضع الجودة والثقة في صميم التجربة.', img: '/logos/naqwa-new.png', href: 'https://edmarksa.com/', pos: 'top-[16%] bottom-[-16%] max-md:top-[24%] max-md:bottom-[-24%]' },
 ];
 
 export default function Work() {
