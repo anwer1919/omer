@@ -13,10 +13,8 @@ export default function Work() {
           const cls = 'group relative overflow-hidden aspect-[3/4] rounded-[6px] border border-[var(--gold-dim)] bg-[var(--card)] transition-transform duration-300 hover:scale-[1.02]';
           const inner = (
             <>
-              {/* الصورة بنفس حجم البطاقة بالضبط — بدون أي حواف */}
               <img src={c.img} alt={c.name}
-                className="absolute inset-0 size-full object-cover group-hover:brightness-110 transition" />
-              {/* النص شفاف يطفو فوق الصورة */}
+                className="absolute inset-0 size-full object-cover object-[center_25%] group-hover:brightness-110 transition" />
               <div className="relative z-10 p-2 md:p-6 pt-3 md:pt-6 text-center">
                 <h3 className="gold-shine text-[13px] md:text-2xl font-medium [text-shadow:0_2px_10px_rgba(0,0,0,.9)]">{c.name}</h3>
                 <p className="text-[9px] md:text-sm text-[var(--text)] leading-[1.7] md:leading-[1.9] mt-1 md:mt-2 [text-shadow:0_1px_6px_rgba(0,0,0,.95)]">{c.desc}</p>
