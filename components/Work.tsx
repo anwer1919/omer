@@ -6,18 +6,18 @@ const cards = [
 
 export default function Work() {
   return (
-    <section id="work" className="py-0 md:py-1 px-3 md:px-6 bg-[var(--bg)]">
-      <p className="gold-shine text-center text-base md:text-lg mb-0.5 md:mb-2">العلامات</p>
-      <div className="max-w-[1200px] mx-auto grid grid-cols-3 gap-2 md:gap-4">
+    <section id="work" className="py-0.5 md:py-1 px-2 md:px-4 bg-[var(--bg)]">
+      <p className="gold-shine text-center text-sm md:text-base mb-0.5 md:mb-1">العلامات</p>
+      <div className="max-w-[1200px] mx-auto grid grid-cols-3 gap-1 md:gap-2">
         {cards.map(c => {
-          const cls = 'group relative overflow-hidden aspect-[3/4.4] rounded-[6px] border border-[var(--gold-dim)] bg-[var(--card)] transition-transform duration-300 hover:scale-[1.02]';
+          const cls = 'group relative overflow-hidden aspect-[3/4.4] rounded-[4px] border-2 border-[#d9a066] bg-[var(--card)] shadow-[0_0_10px_rgba(217,160,102,.25)] transition-transform duration-200 ease-out hover:scale-[1.03] hover:shadow-[0_0_18px_rgba(217,160,102,.45)] active:scale-[0.97] cursor-pointer';
           const inner = (
             <>
               <img src={c.img} alt={c.name}
                 className={`absolute inset-0 size-full object-cover ${c.pos} ${c.mask} group-hover:brightness-110 transition`} />
-              <div className="relative z-10 p-2 md:p-4 pt-1 md:pt-2 text-center">
-                <h3 className="gold-shine text-[13px] md:text-2xl font-medium [text-shadow:0_2px_10px_rgba(0,0,0,.9)]">{c.name}</h3>
-                <p className={`${c.descClass || 'text-[11px] md:text-base'} text-[var(--text)] leading-[1.7] md:leading-[1.9] mt-1 md:mt-2 [text-shadow:0_1px_6px_rgba(0,0,0,.95)]`}>{c.desc}</p>
+              <div className="relative z-10 p-1.5 md:p-3 pt-0.5 md:pt-1 text-center">
+                <h3 className="gold-shine text-[11px] md:text-xl font-medium [text-shadow:0_2px_10px_rgba(0,0,0,.9)]">{c.name}</h3>
+                <p className={`${c.descClass || 'text-[10px] md:text-sm'} text-[var(--text)] leading-[1.6] md:leading-[1.8] mt-0.5 md:mt-1 [text-shadow:0_1px_6px_rgba(0,0,0,.95)]`}>{c.desc}</p>
               </div>
             </>
           );
