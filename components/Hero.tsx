@@ -4,11 +4,14 @@ export default function Hero() {
   return (
     <section id="home" className="relative overflow-hidden bg-[var(--bg)]">
       <div className="relative w-full px-3 md:px-14 pt-[48px] md:pt-[56px]">
+        {/* الصورة في اليسار - كاملة بدون قص */}
         <div className="absolute inset-0">
           <img src="/portrait.png" alt="عمر العُمر"
-            className="absolute inset-y-0 left-0 h-full w-full md:w-[55%] object-contain object-[0%_0%] md:object-cover md:object-[30%_25%] brightness-[1.05] contrast-[1.02]" />
-          <div className="absolute inset-0 bg-gradient-to-l from-[var(--bg)] from-45% via-[var(--bg)]/60 via-58% to-transparent to-70%" />
+            className="absolute inset-y-0 left-0 h-full w-full md:w-[55%] object-contain object-left brightness-[1.05] contrast-[1.02]" />
+          <div className="absolute inset-0 bg-gradient-to-l from-[var(--bg)] from-50% via-[var(--bg)]/40 via-60% to-transparent to-75%" />
         </div>
+
+        {/* النصوص في اليمين */}
         <div className="relative z-10 flex flex-col md:w-[45%] md:ml-auto">
           <h1 className="logo-name text-[44px] md:text-[60px] font-normal leading-[1.2] text-[var(--text)]">عمر العُمر</h1>
           <span className="line-shine block w-10 md:w-14 mt-1 md:mt-2" />
