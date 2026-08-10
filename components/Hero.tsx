@@ -1,30 +1,29 @@
-const cards = [
-  { name: 'EDMARK', desc: '20 عامًا من الخبرة في بناء الأسواق وتطوير الأعمال عبر أكثر من 48 دولة.', img: '/logos/edmark-new.png', href: null, pos: 'object-[center_70%] max-md:object-[center_75%]', mask: '[mask-image:linear-gradient(to_bottom,#000_78%,transparent_98%)]' },
-  { name: 'HOWK', desc: 'دار أزياء سعودية فاخرة تقوم على الندرة والحِرفة والتميّز.', img: '/logos/howk-new.png', href: 'https://howkworld.com/ar', pos: 'object-cover', mask: '[mask-image:linear-gradient(to_bottom,#000_78%,transparent_98%)]' },
-  { name: 'نقوة الدار', desc: 'علامة سعودية للمنتجات المنزلية، تضع الجودة والثقة في صميم التجربة.', img: '/logos/naqwa-new.png', href: 'https://edmarksa.com/', pos: 'object-[center_0%]', mask: '[mask-image:linear-gradient(to_bottom,#000_78%,transparent_98%)]', descClass: 'text-[9px] md:text-sm' },
-];
+import { FaFileLines, FaCalendarDays } from 'react-icons/fa6';
 
-export default function Work() {
+export default function Hero() {
   return (
-    <section id="work" className="py-0.5 md:py-1 px-2 md:px-4 bg-[var(--bg)]">
-      <p className="gold-shine text-center text-sm md:text-base mb-0.5 md:mb-1">العلامات</p>
-      <div className="max-w-[1200px] mx-auto grid grid-cols-3 gap-1 md:gap-2">
-        {cards.map(c => {
-          const cls = 'group relative overflow-hidden aspect-[3/4.4] rounded-[4px] border-2 border-[#d9a066] bg-[var(--card)] shadow-[0_0_10px_rgba(217,160,102,.25)] transition-transform duration-150 ease-out hover:scale-[1.03] hover:shadow-[0_0_18px_rgba(217,160,102,.45)] active:scale-[0.94] touch-manipulation select-none [-webkit-tap-highlight-color:transparent] cursor-pointer';
-          const inner = (
-            <>
-              <img src={c.img} alt={c.name}
-                className={`absolute inset-0 size-full object-cover ${c.pos} ${c.mask} group-hover:brightness-110 transition`} />
-              <div className="relative z-10 p-1.5 md:p-3 pt-0.5 md:pt-1 text-center">
-                <h3 className="gold-shine text-[11px] md:text-xl font-medium [text-shadow:0_2px_10px_rgba(0,0,0,.9)]">{c.name}</h3>
-                <p className={`${c.descClass || 'text-[10px] md:text-sm'} text-[var(--text)] leading-[1.6] md:leading-[1.8] mt-0.5 md:mt-1 [text-shadow:0_1px_6px_rgba(0,0,0,.95)]`}>{c.desc}</p>
-              </div>
-            </>
-          );
-          return c.href
-            ? <a key={c.name} href={c.href} target="_blank" className={cls}>{inner}</a>
-            : <div key={c.name} className={cls}>{inner}</div>;
-        })}
+    <section id="home" className="relative overflow-hidden bg-[var(--bg)]">
+      <div className="relative w-full px-3 md:px-14 pt-[24px] md:pt-[32px] pb-[16px] md:pb-[20px]">
+        <div className="absolute inset-0">
+          <img src="/portrait.png" alt="عمر العُمر"
+            className="absolute inset-y-0 left-0 h-full w-full md:w-[55%] object-contain object-[0%_0%] md:object-cover md:object-[30%_25%] brightness-[1.05] contrast-[1.02] [mask-image:linear-gradient(to_bottom,#000_80%,transparent_100%)]" />
+          <div className="absolute inset-0 bg-gradient-to-l from-[var(--bg)] from-45% via-[var(--bg)]/60 via-58% to-transparent to-70%" />
+        </div>
+        <div className="relative z-10 flex flex-col md:w-[45%] md:ml-auto">
+          <h1 className="logo-name text-[36px] md:text-[52px] font-normal leading-[1.1] text-[var(--text)]">عمر العُمر</h1>
+          <span className="block h-[2px] w-10 md:w-14 bg-[#d9a066] rounded-full mt-0.5 md:mt-1" />
+          <p dir="ltr" className="gold-shine font-sans tracking-[.2em] md:tracking-[.35em] text-[8px] md:text-xs mt-0.5 md:mt-1 text-right">FOUNDER • ENTREPRENEUR</p>
+          <div className="flex flex-row flex-wrap items-center gap-1.5 md:gap-3 mt-1 md:mt-2">
+            <a href="/booking" className="h-[28px] md:h-[38px] px-2 md:px-4 rounded-[4px] border border-[var(--gold-dim)] bg-transparent flex items-center justify-center gap-1 md:gap-1.5 text-[9px] md:text-xs whitespace-nowrap text-[var(--text)] hover:border-[var(--gold)] transition-colors">
+              <FaCalendarDays className="size-2.5 md:size-3 text-[var(--gold)]" />
+              حجز الاجتماع
+            </a>
+            <a href="/profile" className="h-[28px] md:h-[38px] px-2 md:px-4 rounded-[4px] bg-[var(--gold)] text-black flex items-center justify-center gap-1 md:gap-1.5 text-[9px] md:text-xs font-medium whitespace-nowrap hover:bg-[#d8a97e] transition-colors">
+              <FaFileLines className="size-2.5 md:size-3" />
+              الملف التنفيذي
+            </a>
+          </div>
+        </div>
       </div>
     </section>
   );
