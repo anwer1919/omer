@@ -35,18 +35,13 @@ export default function Social() {
             </div>
           )}
         </div>
+        {/* أيقونة الإيميل فقط — بدون نص */}
+        <a href="mailto:EDMARK@live.in"
+           className="flex flex-col items-center gap-0.5 max-md:px-0.5 md:px-2 py-1 text-[#d9a066] hover:text-[#e8b880] transition-colors">
+          <FaEnvelope className="size-3.5 md:size-4" />
+          <span dir="ltr" className="text-[6px] md:text-[10px] max-md:tracking-normal md:tracking-wider text-[#a89080]">Email</span>
+        </a>
       </div>
-      <p dir="ltr" className="mt-0.5 text-[10px] md:text-xs text-[#a89080] tracking-wider flex items-center justify-center flex-wrap gap-1.5 md:gap-2">
-        <a href="mailto:EDMARK@live.in" className="flex items-center gap-1.5 hover:text-[#d9a066] transition-colors">
-          <FaEnvelope className="size-3 md:size-3.5 text-[#d9a066]" />
-          EDMARK@live.in
-        </a>
-        <span className="mx-0.5 text-[#a89080]">•</span>
-        <a href="https://omar-alomar.com" className="flex items-center gap-1.5 hover:text-[#d9a066] transition-colors">
-          <FaGlobe className="size-3 md:size-3.5 text-[#d9a066]" />
-          omar-alomar.com
-        </a>
-      </p>
     </section>
   );
 }
