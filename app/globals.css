@@ -41,25 +41,6 @@ h1, h2, h3 {
   animation: none !important;
 }
 
-/* خط فاصل لامع — ثقيل بالمنتصف، خفيف من الأطراف */
-.line-shine {
-  height: 3px;
-  border-radius: 999px;
-  background: linear-gradient(
-    90deg,
-    transparent 0%,
-    rgba(217, 160, 102, .35) 30%,
-    #d9a066 45%,
-    #fffbe6 50%,
-    #d9a066 55%,
-    rgba(217, 160, 102, .35) 70%,
-    transparent 100%
-  );
-  background-size: 200% 100%;
-  box-shadow: 0 0 8px rgba(217, 160, 102, .35);
-  animation: lineShine 3s ease-in-out infinite;
-}
-
 @keyframes lineShine {
   0% { background-position: 0% 0; }
   50% { background-position: 100% 0; }
