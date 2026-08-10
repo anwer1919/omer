@@ -7,8 +7,8 @@
   --bg2: #101010;
   --card: #141414;
   --text: #e8e8e8;
-  --gold: #d4af37;
-  --gold-dim: rgba(212, 175, 55, .25);
+  --gold: #b87333;
+  --gold-dim: rgba(184, 115, 51, .3);
 }
 
 * {
@@ -32,14 +32,14 @@ h1, h2, h3 {
   font-family: 'Amiri', serif;
 }
 
-/* نص ذهبي لامع متحرك */
+/* نص نحاسي لامع متحرك */
 @keyframes goldShine {
   0% { background-position: 200% center; }
   100% { background-position: -200% center; }
 }
 
 .gold-shine {
-  background: linear-gradient(110deg, #8a6d3b 20%, #d4af37 40%, #fffbe6 50%, #d4af37 60%, #8a6d3b 80%);
+  background: linear-gradient(110deg, #7a4a21 20%, #b87333 40%, #ffd9b3 50%, #b87333 60%, #7a4a21 80%);
   background-size: 200% auto;
   -webkit-background-clip: text;
   background-clip: text;
@@ -61,8 +61,8 @@ h1, h2, h3 {
 
 /* تحديد النص */
 ::selection {
-  background: rgba(212, 175, 55, .3);
-  color: #fffbe6;
+  background: rgba(184, 115, 51, .3);
+  color: #ffd9b3;
 }
 
 /* شريط التمرير */
@@ -75,10 +75,10 @@ h1, h2, h3 {
 }
 
 ::-webkit-scrollbar-thumb {
-  background: rgba(212, 175, 55, .4);
+  background: rgba(184, 115, 51, .4);
   border-radius: 4px;
 }
 
 ::-webkit-scrollbar-thumb:hover {
-  background: rgba(212, 175, 55, .7);
+  background: rgba(184, 115, 51, .7);
 }
