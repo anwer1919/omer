@@ -14,11 +14,11 @@ export default function Hero() {
           <span className="line-shine block h-px w-10 md:w-14 mt-1 md:mt-2" />
           <p dir="ltr" className="gold-shine font-sans tracking-[.2em] md:tracking-[.35em] text-[9px] md:text-sm mt-1 md:mt-2 text-right">FOUNDER • ENTREPRENEUR</p>
           <div className="flex flex-row flex-wrap items-center gap-2 md:gap-4 mt-2 md:mt-4">
-            <a href="/booking" className="h-[32px] md:h-[46px] px-2.5 md:px-6 rounded-[4px] border border-[var(--gold-dim)] flex items-center justify-center gap-1.5 md:gap-2 text-[10px] md:text-sm whitespace-nowrap text-[var(--text)] hover:border-[var(--gold)] transition-colors bg-transparent">
+            <a href="/booking" className="h-[32px] md:h-[46px] px-2.5 md:px-6 rounded-[4px] border border-[var(--gold-dim)] bg-transparent flex items-center justify-center gap-1.5 md:gap-2 text-[10px] md:text-sm whitespace-nowrap text-[var(--text)] hover:border-[var(--gold)] transition-colors">
               <FaCalendarDays className="size-3 md:size-3.5 text-[var(--gold)]" />
               حجز الاجتماع
             </a>
-            <a href="/profile" className="copper-btn h-[32px] md:h-[46px] px-2.5 md:px-6 rounded-[4px] flex items-center justify-center gap-1.5 md:gap-2 text-[10px] md:text-sm whitespace-nowrap text-white">
+            <a href="/profile" className="h-[32px] md:h-[46px] px-2.5 md:px-6 rounded-[4px] bg-[var(--gold)] text-black flex items-center justify-center gap-1.5 md:gap-2 text-[10px] md:text-sm font-medium whitespace-nowrap hover:bg-[#d8a97e] transition-colors">
               <FaFileLines className="size-3 md:size-3.5" />
               الملف التنفيذي
             </a>
