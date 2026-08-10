@@ -12,14 +12,7 @@ export default function Hero() {
         <div className="relative z-10 flex flex-col md:w-[45%] md:ml-auto">
           <h1 className="logo-name text-[44px] md:text-[60px] font-normal leading-[1.2] text-[var(--text)]">عمر العُمر</h1>
 
-          {/* خط بين الاسم والكلمة الإنجليزية */}
-          <span className="block h-[2px] w-10 md:w-14 bg-[#d9a066] rounded-full mt-1 md:mt-2" />
-
           <p dir="ltr" className="gold-shine font-sans tracking-[.2em] md:tracking-[.35em] text-[9px] md:text-sm mt-1 md:mt-2 text-right">FOUNDER • ENTREPRENEUR</p>
-
-
-          {/* خط تحت الجملة */}
-          <span className="block h-[2px] w-10 md:w-14 bg-[#d9a066] rounded-full mt-1 md:mt-2" />
 
           <div className="flex flex-row flex-wrap items-center gap-2 md:gap-4 mt-2 md:mt-3">
             <a href="/booking" className="h-[32px] md:h-[46px] px-2.5 md:px-6 rounded-[4px] border border-[var(--gold-dim)] bg-transparent flex items-center justify-center gap-1.5 md:gap-2 text-[10px] md:text-sm whitespace-nowrap text-[var(--text)] hover:border-[var(--gold)] transition-colors">
