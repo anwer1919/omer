@@ -17,9 +17,6 @@ export default function Hero() {
 
           <p dir="ltr" className="gold-shine font-sans tracking-[.2em] md:tracking-[.35em] text-[9px] md:text-sm mt-1 md:mt-2 text-right">FOUNDER • ENTREPRENEUR</p>
 
-          <p className="text-sm md:text-base text-[var(--text)] leading-[1.8] md:leading-[1.9] mt-2 md:mt-3">
-    
-          </p>
 
           {/* خط تحت الجملة */}
           <span className="block h-[2px] w-10 md:w-14 bg-[#d9a066] rounded-full mt-1 md:mt-2" />
