@@ -32,19 +32,18 @@ h1, h2, h3 {
   font-family: 'Amiri', serif;
 }
 
-/* نص نحاسي لامع متحرك */
-@keyframes goldShine {
-  0% { background-position: 200% center; }
-  100% { background-position: -200% center; }
+/* نص نحاسي ثابت بدون لمعان */
+.gold-shine {
+  color: #b87333;
+  background: none;
+  -webkit-text-fill-color: #b87333;
 }
 
-.gold-shine {
-  background: linear-gradient(110deg, #7a4a21 20%, #b87333 40%, #ffd9b3 50%, #b87333 60%, #7a4a21 80%);
-  background-size: 200% auto;
-  -webkit-background-clip: text;
-  background-clip: text;
-  -webkit-text-fill-color: transparent;
-  animation: goldShine 4s linear infinite;
+/* خط فاصل نحاسي ثابت */
+.line-shine {
+  background: #b87333;
+  box-shadow: none;
+  animation: none;
 }
 
 /* أزرار نحاسية لامعة */
