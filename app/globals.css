@@ -7,8 +7,8 @@
   --bg2: #101010;
   --card: #141414;
   --text: #e8e8e8;
-  --gold: #b87333;
-  --gold-dim: rgba(184, 115, 51, .3);
+  --gold: #d9a066;
+  --gold-dim: rgba(217, 160, 102, .3);
 }
 
 * {
@@ -27,23 +27,25 @@ body {
   direction: rtl;
 }
 
-/* الخطوط */
 h1, h2, h3 {
   font-family: 'Amiri', serif;
 }
 
-/* نص نحاسي ثابت بدون لمعان */
+/* نص نحاسي فاتح ثابت — بدون أي لمعان */
 .gold-shine {
-  color: #b87333;
-  background: none;
-  -webkit-text-fill-color: #b87333;
+  background: none !important;
+  -webkit-background-clip: initial !important;
+  background-clip: initial !important;
+  -webkit-text-fill-color: #d9a066 !important;
+  color: #d9a066 !important;
+  animation: none !important;
 }
 
-/* خط فاصل نحاسي ثابت */
+/* خط فاصل نحاسي فاتح ثابت */
 .line-shine {
-  background: #b87333;
-  box-shadow: none;
-  animation: none;
+  background: #d9a066 !important;
+  box-shadow: none !important;
+  animation: none !important;
 }
 
 /* أزرار نحاسية لامعة */
@@ -58,13 +60,11 @@ h1, h2, h3 {
   box-shadow: 0 0 20px rgba(184, 115, 51, .6), inset 0 1px 0 rgba(255,255,255,.2);
 }
 
-/* تحديد النص */
 ::selection {
-  background: rgba(184, 115, 51, .3);
+  background: rgba(217, 160, 102, .3);
   color: #ffd9b3;
 }
 
-/* شريط التمرير */
 ::-webkit-scrollbar {
   width: 8px;
 }
@@ -74,10 +74,10 @@ h1, h2, h3 {
 }
 
 ::-webkit-scrollbar-thumb {
-  background: rgba(184, 115, 51, .4);
+  background: rgba(217, 160, 102, .4);
   border-radius: 4px;
 }
 
 ::-webkit-scrollbar-thumb:hover {
-  background: rgba(184, 115, 51, .7);
+  background: rgba(217, 160, 102, .7);
 }
