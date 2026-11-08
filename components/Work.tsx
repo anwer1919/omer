@@ -24,7 +24,7 @@ export default function Work() {
       <p className="gold-shine text-center flex items-center justify-center max-md:h-[calc(var(--u,1vw)*4)] max-md:[font-size:calc(var(--u,1vw)*3)] md:text-base md:mb-2">العلامات</p>
 
       {/* جوال: صفّان يملآن المساحة المتبقية. كمبيوتر: نسبة ثابتة */}
-      <div className="w-full max-w-[760px] mx-auto grid grid-cols-2 max-md:gap-[calc(var(--u,1vw)*2)] md:gap-3 flex-1 min-h-0 max-md:min-h-[calc(var(--u,1vw)*60)] max-md:grid-rows-2">
+      <div className="w-full max-md:max-w-[calc(var(--u,1vw)*76)] md:max-w-[760px] mx-auto grid grid-cols-2 max-md:gap-[calc(var(--u,1vw)*2)] md:gap-3 flex-1 min-h-0 max-md:min-h-[calc(var(--u,1vw)*60)] max-md:grid-rows-2">
         {cards.map(c => {
           const cls =
             'group relative overflow-hidden min-h-0 md:aspect-[1/0.95] rounded-[6px] border-2 border-[#d9a066] bg-black shadow-[0_0_8px_rgba(217,160,102,.25)] transition-transform duration-200 ease-out hover:scale-[1.02] hover:shadow-[0_0_18px_rgba(217,160,102,.45)] active:scale-[0.97] cursor-pointer';
@@ -38,7 +38,7 @@ export default function Work() {
                 className={`absolute inset-0 size-full max-md:object-fill md:object-cover ${c.pos} ${c.mask ?? ''} group-hover:brightness-110 transition`} />
               <div className="relative z-10 px-1.5 md:px-3 pt-0.5 text-center">
                 <h3 className="gold-shine max-md:[font-size:calc(var(--u,1vw)*3.6)] md:text-xl font-medium leading-tight [text-shadow:0_2px_10px_rgba(0,0,0,.9)]">{c.name}</h3>
-                <p className="text-[var(--text)] max-md:[font-size:calc(var(--u,1vw)*2.8)] md:text-sm max-md:leading-[1.4] md:leading-[1.8] [text-shadow:0_1px_6px_rgba(0,0,0,.95)]">{c.desc}</p>
+                <p className="text-[var(--text)] max-md:[font-size:calc(var(--u,1vw)*2.6)] md:text-sm max-md:leading-[1.4] md:leading-[1.8] [text-shadow:0_1px_6px_rgba(0,0,0,.95)]">{c.desc}</p>
               </div>
             </>
           );
