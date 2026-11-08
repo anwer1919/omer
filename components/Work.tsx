@@ -18,8 +18,8 @@ const cards: Card[] = [
   {
     name: 'زينة وخزينة',
     desc: 'لوحات سيارات مميزة بأرقام وحروف منتقاة.',
-    img: '/logos/zeena-car.jpg',
-    logo: '/logos/zeena-logo.jpg',
+    img: '/logos/IMG_7134.jpeg',
+    logo: '/logos/IMG_7135.jpeg',
     href: 'https://snapchat.com/t/LtNHsw4T',
     pos: 'object-[center_100%]',
     mask: '',
