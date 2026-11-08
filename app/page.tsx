@@ -9,7 +9,8 @@ import Footer from '../components/Footer';
 
 export default function Home() {
   return (
-    <>
+    // fit-screen: على الجوال الصفحة بارتفاع الشاشة بالضبط، والبطاقات تملأ المتبقي (القاعدة في globals.css)
+    <div className="fit-screen">
       <NavBar />
       <main>
         <Hero />
@@ -20,6 +21,7 @@ export default function Home() {
         <Social />
       </main>
       <Footer />
-    </>
+    </div>
   );
 }
+
