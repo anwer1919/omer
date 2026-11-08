@@ -15,7 +15,7 @@ const cards: Card[] = [
   { name: 'HOWK', desc: 'دار أزياء سعودية فاخرة تقوم على الندرة والحِرفة والتميّز.', img: '/logos/howk-new.png', href: 'https://howkworld.com/ar', pos: 'object-[center_40%]', mask: MASK },
   { name: 'نقوة الدار', desc: 'علامة سعودية للمنتجات المنزلية، تضع الجودة والثقة في صميم التجربة.', img: '/logos/naqwa-new.png', href: 'https://edmarksa.com/', pos: 'object-[center_0%]', mask: MASK },
   // غيّر الاسم هنا ليطابق اسم الملف في GitHub بالضبط
-  { name: 'زينة وخزينة', img: '/logos/zeena-card.jpeg', href: 'https://snapchat.com/t/LtNHsw4T', pos: 'object-[center_35%]', full: true },
+  { name: '', img: '/logos/zeena-card.jpeg', href: 'https://snapchat.com/t/LtNHsw4T', pos: 'object-[center_35%]', full: true },
 ];
 
 export default function Work() {
