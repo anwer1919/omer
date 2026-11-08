@@ -31,11 +31,11 @@ export default function Work() {
 
           const inner = c.full ? (
             <img src={c.img} alt={c.name} loading="lazy"
-              className={`absolute inset-0 size-full max-md:object-contain max-md:object-center md:object-cover ${c.pos} group-hover:brightness-110 transition`} />
+              className={`absolute inset-0 size-full max-md:object-fill md:object-cover ${c.pos} group-hover:brightness-110 transition`} />
           ) : (
             <>
               <img src={c.img} alt={c.name}
-                className={`absolute inset-0 size-full max-md:object-contain max-md:object-center md:object-cover ${c.pos} ${c.mask ?? ''} group-hover:brightness-110 transition`} />
+                className={`absolute inset-0 size-full max-md:object-fill md:object-cover ${c.pos} ${c.mask ?? ''} group-hover:brightness-110 transition`} />
               <div className="relative z-10 px-1.5 md:px-3 pt-0.5 text-center">
                 <h3 className="gold-shine max-md:[font-size:calc(var(--u,1vw)*3.6)] md:text-xl font-medium leading-tight [text-shadow:0_2px_10px_rgba(0,0,0,.9)]">{c.name}</h3>
                 <p className="text-[var(--text)] max-md:[font-size:calc(var(--u,1vw)*2.8)] md:text-sm max-md:leading-[1.4] md:leading-[1.8] [text-shadow:0_1px_6px_rgba(0,0,0,.95)]">{c.desc}</p>
@@ -51,5 +51,3 @@ export default function Work() {
     </section>
   );
 }
-
- 
