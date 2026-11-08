@@ -81,27 +81,28 @@ h1, h2, h3 {
   background: rgba(217, 160, 102, .7);
 }
 
-/* جوال: الصفحة بارتفاع الشاشة بالضبط بنفس تصميم الموك أب — كل الأقسام تتناسب مع وحدة --u */
-.fit-screen { --u: 1vw; }
+/* جوال: الصفحة بارتفاع الشاشة بالضبط — كل الأقسام تتناسب مع وحدة --u (حوالي 1% من العرض) */
+:root { --u: 1vw; }
 @supports (height: 1dvh) {
-  /* --u = عرض/100، لكن تصغر لو الشاشة أقصر من التصميم (180.5 وحدة + 60px للأيقونات والفوتر) */
-  .fit-screen { --u: min(1vw, calc((100dvh - 60px) / 180.5)); }
+  /* تصغر الوحدة لو الشاشة أقصر من التصميم (174 وحدة + 60px للأيقونات والفوتر) */
+  :root { --u: min(1vw, calc((100dvh - 60px) / 174)); }
 }
 @media (max-width: 767px) {
-  .fit-screen {
+  .fit-screen { display: contents; }
+  body {
     display: flex;
     flex-direction: column;
     height: 100vh;
     height: 100dvh;
     overflow-y: auto; /* احتياط فقط لو الشاشة صغيرة جدًا */
   }
-  .fit-screen > main {
+  body main {
     display: flex;
     flex-direction: column;
     flex: 1 1 auto;
     min-height: 0;
   }
-  .fit-screen > main > *:not(#work) { flex-shrink: 0; }
-  .fit-screen > main > #work { flex: 1 1 0; min-height: 0; }
+  body main > *:not(#work) { flex-shrink: 0; }
+  body main > #work { flex: 1 1 0; min-height: 0; }
+  body > footer, .fit-screen > footer { flex-shrink: 0; }
 }
-
